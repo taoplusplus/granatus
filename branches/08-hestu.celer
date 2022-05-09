@@ -3,7 +3,7 @@ Hestu:
 - _Npc<Olkin>:
     line-color: white
     coord: [1870.87, 227.97, 965.85]
-    comment: fortified pumpkin
+    comment: Fortified Pumpkin
 
 - .dir(W)
 - _Npc<Impa>:
@@ -11,16 +11,16 @@ Hestu:
 
 - _Shop<Produce Shop>:
     coord: [1792.02, 222.40, 1028.39]
-    comment: carrots
+    comment: Carrots
 
 - _Shop<Arrow Shop>:
     coord: [1825.55, 224.39, 1045.11]
-    comment: buy all
+    comment: Buy all
 
 - .dir(E> + SE midair)
 - _Chest<Hestu's Maracas>:
     coord: [2172.24, 218.76, 1369.20]
-    comment: kill bokos with bomb arrow
+    comment: Kill bokos with bomb arrow
 
 - .dir(glide E)
 - _Korok::D21
@@ -28,7 +28,7 @@ Hestu:
 - .dir(W)
 - _Npc<Hestu>:
     coord: [2069.45, 188.17, 1422.25]
-    comment: get 2 weapon slots
+    comment: Get 2 weapon slots
 
 - .dir(<W turn)
 - _Korok::D20
@@ -47,7 +47,7 @@ Hestu:
 
 - _Chest<Knight's Broadsword>:
     coord: [826.64, 112.80, 123.61]
-    comment: under water
+    comment: Under water
     notes: Riverbed Reward quest
 
 - _Discover<Wetland Stable>:
@@ -55,7 +55,7 @@ Hestu:
 
 - _Npc<Hestu>:
     coord: [870.83, 131.54, 203.47]
-    comment: get 5 bow slots
+    comment: Get 5 bow slots
 
 - _Material<Endura Shroom,6>:
     movements:
@@ -97,6 +97,6 @@ Hestu:
         - to: [1927.16, 115.88, 372.86]
         - to: [1961.26, 115.88, 385.72]
         - to: [1960.23, 115.88, 411.10]
-    notes: if guardian sees you, use Cryo and head shots to buy time
+    notes: If guardian sees you, use Cryo and head shots to buy time.
 
 - _Warp::Shrine::MoggLatan

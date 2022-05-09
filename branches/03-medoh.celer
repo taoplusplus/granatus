@@ -1,9 +1,11 @@
 Vah Medoh:
-     - .dir(BLSS)
+     - .dir(BLSS):
+          notes: WB <E turn to opening cutscene if delaying time of day until now.
 
      - _Equipment::Bow<Forest Dweller's Bow>:
           line-color: yellow
           coord: [-2342.64, 348.37, 680.81]
+          notes: First multi-shot for menu overloading.
 
      - .dir(N>> super)
 
@@ -11,18 +13,19 @@ Vah Medoh:
           coord: [-2190.5,441]
      
      - _Material<Wood>:
-          comment: from all durian trees
+          comment: From all durian trees
 
      - .dir(W)
 
      - _Material<Rushroom,3>:
           coord: [-2297.00, 462.74, 447.00]
+          notes: Rushroom Rush! quest
 
      - _Korok::R60:
-          notes: Kill the birds here for extra food
+          notes: Kill the birds here for extra food.
 
      - _Shrine::MoggLatan:
-          comment: Forest Dweller's Bow
+          notes: .link(https://youtu.be/MZqANcvFr4c?t=23086)
 
      - .dir(BLSS)
 
@@ -35,7 +38,7 @@ Vah Medoh:
 
      - _Shop<Shop>:
           coord: [-3643.01, 290.64, -1823.43]
-          comment: sell parts, buy everything
+          comment: Sell parts, buy everything
           notes: Drop 5 cores and sell rest OR sell all gears OR sell 600 shafts
 
      - .dir(<N turn super)
@@ -59,9 +62,11 @@ Vah Medoh:
           icon: medoh-enter
           notes: Medoh strats .link(https://youtu.be/8Q-vJBSBhV0?t=1358)
 
-     - _Material<Ancient Core,1>:
-          notes: Skip if you got cores from rupee printer
+     - _Material<Ancient Core,1>
+
+     - .boss(Windblight Ganon):
+          icon: ganon
+          notes: Fast Windblight .link(https://youtu.be/34p2QkkwJc0)
 
      - Revali's Gale:
           icon: medoh-done
-          notes: fast Windblight .link(https://youtu.be/34p2QkkwJc0)

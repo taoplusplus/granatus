@@ -17,7 +17,8 @@ Gerudo Town 1:
     coord: [-3060.00, 576.11, 1216.91]
 
 - _Shrine::KuhTakkar:
-    comment: unfreeze with fire arrows
+    comment: Unfreeze with 7 fire arrows
+    notes: .link(https://youtu.be/MZqANcvFr4c?t=11386)
 
 - .dir(S)
 - .loc(Lizalfos Camp):
@@ -27,7 +28,7 @@ Gerudo Town 1:
     notes: If no extra GEB, use this strat .link(https://discord.com/channels/269611402854006785/298175033224724500/948796661818339369)
 
 - _Material<Lizalfos Tail,2>
-- _Equipment::Weapon<Dragonbone Moblin Club>
+#- _Equipment::Weapon<Dragonbone Moblin Club>
 - _Equipment::Bow<2 Steel Lizal Bow>
 
 #- .dir(<<W)
@@ -36,10 +37,10 @@ Gerudo Town 1:
 #    comment: on bridge
 
 - .dir(W)
-- _Equipment::Bow<Duplex Bow>:
+- _Equipment::Bow<3 Duplex Bow>:
     coord: [-3747.82, 431.31, 1410.36]
-    comment: kill yiga footsoldiers
-
+    comment: Kill yiga footsoldiers
+    notes: Duplex Bows needed for menu overload and for Weapon Connoisseur.
 
 - .gale() .dir(midair S):
     gale: 1
@@ -67,20 +68,21 @@ Gerudo Town 1:
 - Activate Daqo Chisay:
     icon: shrine
     coord: [-3816.5,2818]
+    notes: Slightly faster to do it later with speed food.
 
 - .dir(<E turn + E midair)
 - _Npc<Vilia>:
     coord: [-3259.27, 163.93, 2611.54]
-    comment: buy clothes
+    comment: Buy clothes
 
 - .dir(BLSS)
 - _Shop<Arrow Shop>:
     coord: [-3859.23, 149.24, 2916.02]
-    comment: buy all
+    comment: Buy all
 
 - _Tod::Morning:
     coord: [-3832.79, 148.98, 2948.17]
-    notes: for ice house time of day
+    notes: For ice house time of day.
 
 - .!!(Bow Dupe/Transmute):
     notes: .link(https://youtu.be/npppfOXFgD4)
@@ -102,7 +104,7 @@ Gerudo Town 1:
 
 - _Npc::Gerudo<Riju>:
     coord: [-3892.04, 157.48, 2968.14]
-    comment: in throne room
+    comment: In throne room
 
 - .dir(<W turn)
 - _Korok::W47

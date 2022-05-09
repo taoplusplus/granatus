@@ -1,6 +1,6 @@
 Plateau:
 - SOR clip:
-    notes: Delay time of day until after Medoh
+    notes: Can delay time of day to make Blood Moon timing better. Options are (1) right now, (2) after paraglider, (3) after rupee printer, or (4) after Medoh.
 
 - .loc(Boko Camp)
 
@@ -8,7 +8,7 @@ Plateau:
     coord: [-952.34, 238.33, 1959.44]
 
 - _Material<Food>:
-    comment: peppers, steak, shroom
+    comment: Peppers, steak, shroom
 
 - .loc(Temple of Time)
 
@@ -18,13 +18,13 @@ Plateau:
 - _Material<Arrow x5>
 
 - .dir(BLSS):
-    notes: Instant shield jump/unequip to fix skew before blss
+    notes: Skew fix .link(https://twitter.com/TheKoroks/status/1477147629427433472?s=20&t=67Yr65osvtxvFD8Voud8vQ)
 
 - _Shrine::JaBaij:
-    comment: clip in
+    comment: Clip in
 
 - _Npc<Old Man>:
-    comment: text options 2-1-1-2
+    comment: Text options 2-1-1-2
 
 - .dir(BLSS)
 - _Shrine::OmanAu
@@ -32,11 +32,11 @@ Plateau:
 - .dir(wb delayed turn)
 - _Tower::GreatPlateau
 - _Npc<Old Man>:
-    comment: jump + fdc into cutscene
-    notes: Throw away spear on fdc.
+    comment: FDC into cutscene
+    notes: Optimally, throw away spear.
 
 - .dir(BLSS):
-    notes: From 2nd level of tower.
+    notes: .link(https://youtu.be/gQH8hwsckaM?t=766)
 - .loc(Old Man's Hut)
 
 - _Korok::P18

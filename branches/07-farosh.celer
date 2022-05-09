@@ -1,5 +1,5 @@
 Farosh:
-- .dir(SW)
+- .dir(SW super)
 - _Korok::F06
     # line-color: rgb(164,0,0)
 
@@ -20,11 +20,11 @@ Farosh:
     coord: [1730.5,2969.5]
 
 - _Snap::Elite<Farosh>:
-    comment: scale, horn, claw
+    comment: Scale, horn, claw
 
 - .dir(S>)
 - _Korok::F26:
-    notes: Beetles despawn at 7am, skip this if it's getting late
+    notes: Beetles despawn at 7am, skip this if it's getting late.
 
 - .dir(SW)
 - _Material<Energetic Rhino Beetle,5>:
@@ -37,15 +37,15 @@ Farosh:
 - .dir(<S)
 - _Equipment::Weapon<Woodcutter's Axe>:
     coord: [1552.29, 196.63, 3533.36]
-    comment: on stable
-    notes: Quest item
+    comment: On stable
+    notes: Thunder Magnet quest
 
 - _Korok::F41:
-    comment: bomb or fire arrow
+    comment: Bomb rune or fire arrow
 
 - _Npc<Cima>:
     coord: [1540.08, 165.97, 3531.94]
-    comment: talk x2, rubber helm
+    comment: Thunder Magnet
     notes: Wakes up at 7am
 
 - Break boxes behind stable:
@@ -56,7 +56,9 @@ Farosh:
     notes: For offering koroks later
 
 - _Shrine::ShaiUtoh:
-    comment: Ancient Core
-    notes: Skip if you have 3 cores
+    comment: Ancient Core (.v(AncientCore))
+    var-change:
+        AncientCore: 1
+    notes: .link(https://youtu.be/MZqANcvFr4c?t=4420)
 
 - _Warp::Shrine::TalohNaeg

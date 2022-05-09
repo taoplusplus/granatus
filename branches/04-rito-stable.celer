@@ -4,16 +4,19 @@ Rito Stable:
         movements:
             - to: [-3565.625,-1817.375]
               warp: true
+        notes: For An Ice Guy quest and Little Sister's Big Request. Backup on the bridge to Akh Va'quot or near Rito Stable.
 
     - _Npc<Kaneli>:
         coord: [-3627.20, 323.57, -1830.81]
 
     - _Chest::Special<Great Eagle Bow>:
-        notes: DON'T use until duping
+        notes: DON'T use until duping.
 
     - _Shrine::AkhVaquot:
-        comment: Ancient Core
-        notes: Skip this core if you already have 3 cores
+        comment: Ancient Core (.v(AncientCore))
+        var-change:
+            AncientCore: 1
+        notes: .link(https://youtu.be/MZqANcvFr4c?t=9795)
 
     - .dir(W turn)
 
@@ -25,6 +28,7 @@ Rito Stable:
 
     - _Chest<Shock Arrow x5>:
         coord: [-3557.68, 254.12, -1503.59]
+        notes: For menu overloading.
 
     - .dir(NE)
 
@@ -35,18 +39,18 @@ Rito Stable:
 
     - _Npc<Beedle>:
         coord: [-3255.57, 224.47, -1757.63]
-        comment: arrows, 1 darner, fireflies
-        notes: Talk twice so that you get the "customer appreciation" ancient arrow
+        comment: Arrows, 1 darner, fireflies
+        notes: Talk twice so that you get the "customer appreciation" ancient arrow. Darner is for Little Sister's Big Request. Fireflies are for transmuting.
 
     - _Material<Wildberry,6>:
         coord: [-3219.54, 226.45, -1774.04]
         movements:
             - to: [-3219.54, 226.45, -1774.04]
             - to: [-3227.87, 225.97, -1730.82]
-        comment: and peppers
+        comment: And peppers
 
     - _Material<Wood>:
-        comment: and hylian shrooms
+        comment: And hylian shrooms
 
     - .!!(SAVE before fighting octoroks)
 
@@ -55,14 +59,15 @@ Rito Stable:
             - to: [-3285.03, 224.99, -1660.62]
             - to: [-3316.18, 224.91, -1644.00]
             - to: [-3326.89, 224.76, -1625.51]
-        notes: If you don't get a voltfin (quest), reload
+        comment: Riddles of Hyrule
+        notes: If you don't get a voltfin, reload.
 
     - _Material<Wood>:
         coord: [-3229,-1749.5]
-        comment: another round
+        comment: Another round
 
     - .dir(<S)
 
     - _Korok::T19
 
-    - _Warp::Shrine::KehNamut
+    - _Warp::Tower::GreatPlateau

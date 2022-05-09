@@ -1,8 +1,10 @@
 Rupee Printer:
 
-- .dir(BLSS)
+- .dir(BLSS):
+     notes: WB <E turn to opening cutscene if delaying time of day until now.
 
-- .loc(Hyrule Castle balcony)
+- .loc(Hyrule Castle balcony):
+     notes: Can try to discover Observation Room now but you can die if the malice spawns.
 
 - _Chest<Ancient Arrows>:
      coord: [-254.00, 209.67, -742.37]
@@ -16,15 +18,16 @@ Rupee Printer:
 
 - _Korok::C29
 
+- .dir(Drop down)
+
 - _Npc<Ruined Guardian>:
      coord: [90.46, 133.68, -462.33]
-     comment: drop down
-
-- .!!(Select Magnesis, SAVE):
      notes: Smich's rupee printer tutorial .link(https://youtu.be/FPuzVW2aXl8)
 
-- Reload until good combination:
-     notes: Take elite pics for shaft and screw/spring
+- .!!(Select Magnesis, SAVE):
+     notes: Ideal combos are shaft+part or core+part. Shaft+screw and shaft+spring combos do not give enough rupees so you'll need to take elite pictures.
+
+- Reload until good combination
 
 - _Korok::C28
 
@@ -38,15 +41,14 @@ Rupee Printer:
 
 - Kill guardian:
      icon: calamity
-     # coord: 
-     comment: ancient arrow
+     comment: Ancient arrow
      notes: Every core you get lets you skip a shrine chest; need 15 springs before Akkala Tech Lab
      movements:
           - to: [-254.52, 125.34, -193.39]
 
 - Kill guardian:
      icon: calamity
-     comment: ancient arrow
+     comment: Ancient arrow
      movements:
           - to: [-536,-75]
           - to: [-722.52, 123.65, -216.10]
@@ -60,8 +62,7 @@ Rupee Printer:
 
 - Collect guardian parts
 
-- _Korok::C30
-
-- (==) After auto-save, trigger and cancel a controller swap to be able to safely warp away without crashing the game.
+- _Korok::C30:
+     notes: Trigger and cancel a controller swap to be able to safely warp away.
 
 - _Warp::Shrine::KehNamut

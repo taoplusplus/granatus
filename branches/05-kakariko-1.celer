@@ -1,27 +1,31 @@
 Kakariko 1:
-- .dir(<E turn)
+#- .dir(<E turn)
 
-- .!!(Opening Cutscene):
-    line-color: rgb(255,0,0)
-    icon: memory
-    coord: [-1023.75,1796.5]
-    notes: Time of day cycle begins
+#- .!!(Opening Cutscene):
+#    line-color: rgb(255,0,0)
+#    icon: memory
+#    coord: [-1023.75,1796.5]
+#    notes: Time of day cycle begins
 
 - .dir(BLSS)
 
 - _Shrine::KayaWan:
-    comment: Ancient Core
-    notes: Select CRYO before entering shrine; skip this core if you have 4
+    line-color: rgb(255,0,0)
+    comment: Ancient Core (.v(AncientCore))
+    var-change:
+        AncientCore: 1
+    notes: .link(https://youtu.be/MZqANcvFr4c?t=1899)
 
 - .dir(W> super)
 
-- _Shrine::DakaTuss
+- _Shrine::DakaTuss:
+    notes: .link(https://youtu.be/MZqANcvFr4c?t=2040)
 
-- .dir(S + E + S)
+- .dir(S, E + S midair)
 
-- _Shop<Stealth Set>:
-    coord: [1856.78, 224.74, 979.34]
-    notes: For frogs, beetles, crickets, Oaki, and lizards
+# - _Shop<Stealth Set>:
+#    coord: [1856.78, 224.74, 979.34]
+#    notes: For frogs, beetles, crickets, Oaki, and lizards
 
 - _Npc<Paya and Impa>:
     movements:
@@ -34,18 +38,20 @@ Kakariko 1:
 
 - .!!(Beetle Transmute):
     icon: bow
-    comment: equip FDB and shock arrow
-    notes: 2-bow overload, dupe GEB if possible
+    comment: Equip FDB and shock arrow
+    notes: 2-bow overload, dupe GEB if possible .link(https://youtu.be/gQH8hwsckaM?t=3674)
 
 - _Shop<Produce Shop>:
     coord: [1792.02, 222.40, 1028.39]
-    comment: carrots, eggs, gut; peppers
+    comment: Buy carrots, eggs, gut
+    notes: Carrots/gut for speed food, eggs for transmuting.
 
-- _Material<Energetic Rhino Beetle,6>
+- _Material<Energetic Rhino Beetle,6>:
+    notes: For armor upgrades.
 
 - _Shop<Arrow Shop>:
     coord: [1825.55, 224.39, 1045.11]
-    comment: buy all
+    comment: Buy all
 
 - _Npc<Rola>:
     coord: [1830.49, 222.41, 1044.89]
@@ -60,11 +66,13 @@ Kakariko 1:
 - Activate Ta'loh Naeg:
     coord: [1842,891]
     icon: shrine
+    notes: Slightly faster to complete later with speed food.
 
 - .dir(N)
 
 - _Material<Silent Princess,3>:
     coord: [1846.14, 327.67, 820.96]
+    notes: For armor upgrades.
 
 - _Material<Blue Nightshade,6>:
-    notes: for transmuting
+    notes: For transmuting

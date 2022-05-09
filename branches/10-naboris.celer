@@ -6,7 +6,8 @@ Vah Naboris:
     line-color: rgb(204,0,204)
     coord: [-3510.46, 442.51, 1297.31]
 
-- Enter Kohga fight
+- Enter Kohga fight:
+    notes: .link(https://youtu.be/8Q-vJBSBhV0?t=3143)
 
 - _Snap::Elite<Kohga>:
     coord: [-3451.00, 440.69, 1331.50]
@@ -19,12 +20,12 @@ Vah Naboris:
 
 - _Npc<Riju>:
     coord: [-3868.85, 166.67, 2948.96]
-    comment: on balcony, memory
+    comment: On balcony, Urbosa memory
 
 - .dir(W> super)
 - _Npc<Riju>:
     coord: [-3420.68, 189.82, 3118.97]
-    comment: at outpost
+    comment: At outpost
 
 - Begin enter Naboris
 

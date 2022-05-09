@@ -23,9 +23,9 @@ Naydra:
 - .dir(E>)
 - _Korok::N29
 
-- .dir(<E)
-- Escape pool:
+- .dir(<E):
     coord: [3241.75,1472.75]
+    notes: Escape pool.
 
 - _Korok::N30:
     movements:
@@ -33,7 +33,7 @@ Naydra:
           away: true
     notes: Stasis and bomb from a distance
 
-- .dir(run)
+- .dir(Run)
 - _Korok::N22
 
 - .dir(<E)
@@ -46,7 +46,7 @@ Naydra:
 
 - _Shrine::JitanSami:
     line-color: white
-    comment: offer Naydra scale
+    comment: Offer Naydra scale
 
 - .dir(S> + N midair)
 - _Korok::N18
@@ -65,6 +65,7 @@ Naydra:
 - .dir(NE)
 - _Material<Chillshroom,6>:
     coord: [4127.29, 426.47, 1133.65]
+    notes: For transmute.
 
 - _Korok::N19
 
@@ -77,14 +78,14 @@ Naydra:
 - .dir(W>)
 - _Boss::Hinox::Red:
     coord: [3250.94, 268.75, 1331.63]
-    comment: bomb arrows
+    comment: Bomb arrows
 
 - _Snap::Quest<Lynel>
 
 - .dir(<N)
 - _Memory::LanayruRoad
 
-- .dir(S + N + midair)
+- .dir(S, N + midair)
 - _Boss::Hinox::Blue:
     coord: [2990.90, 251.39, 787.92]
 
@@ -103,7 +104,7 @@ Naydra:
 - .dir(S>)
 - _Boss::Hinox::Red:
     coord: [2414.72, 304.69, 1177.84]
-    comment: 3 bomb + 3 arrow
+    comment: 3 bomb arrow + 3 other
 
 - .dir(E>)
 - _Korok::N20
@@ -115,4 +116,5 @@ Naydra:
 - _Korok::N16
 
 - .dir(S)
-- _Shrine::DowNaeh
+- _Shrine::DowNaeh:
+    notes: .link(https://youtu.be/MZqANcvFr4c?t=2919)

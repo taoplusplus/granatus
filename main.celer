@@ -2,10 +2,10 @@
 _project:
     authors:
         - TaoPlusPlus
-    description: ""
+    description: "Latest 100% route with item transmutation."
     name: New Granatus
-    url: ""
-    version: 0.1.0
+    url: "https://github.com/taoplusplus/granatus"
+    version: 1.0.0
 _route:
     - Plateau 1:
         - __use__ Plateau

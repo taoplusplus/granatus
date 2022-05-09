@@ -1,0 +1,70 @@
+Plateau:
+- SOR clip:
+    notes: Delay time of day until after Medoh
+
+- .loc(Boko Camp)
+
+- _Equipment::Shield<Pot Lid + Boko Spear>:
+    coord: [-952.34, 238.33, 1959.44]
+
+- _Material<Food>:
+    comment: peppers, steak, shroom
+
+- .loc(Temple of Time)
+
+- _Chest<Traveler's Bow>:
+    coord: [-832.43, 222.00, 1963.11]
+
+- _Material<Arrow x5>
+
+- .dir(BLSS):
+    notes: Instant shield jump/unequip to fix skew before blss
+
+- _Shrine::JaBaij:
+    comment: clip in
+
+- _Npc<Old Man>:
+    comment: text options 2-1-1-2
+
+- .dir(BLSS)
+- _Shrine::OmanAu
+
+- .dir(wb delayed turn)
+- _Tower::GreatPlateau
+- _Npc<Old Man>:
+    comment: jump + fdc into cutscene
+    notes: Throw away spear on fdc.
+
+- .dir(BLSS):
+    notes: From 2nd level of tower.
+- .loc(Old Man's Hut)
+
+- _Korok::P18
+
+- _Material<Food>:
+    comment: 1 stamella, peppers, apple
+    notes: DON'T eat baked apple (quest), stamella (transmute in Tarrey Town), and keep peppers x6 (transmute in Kakariko)
+
+- _Equipment::Weapon<Woodcutter's Axe>:
+    coord: [-778.00, 194.95, 2254.00]
+
+- _Equipment::Weapon<Torch>:
+    coord: [-798.90, 193.32, 2262.30]
+
+- _Equipment::Shield<Pot Lid>:
+    coord: [-803.47, 193.57, 2265.43]
+
+- .dir(tree WB)
+
+- _Shrine::OwaDaim:
+    comment: skip hammer
+
+- .dir(boulder launch + BLSS)
+
+- _Shrine::KehNamut
+
+- .dir(BLSS)
+
+- _Npc<Paraglider>:
+    icon: king
+    coord: [-812, 1966.1012189378007]

@@ -1,0 +1,248 @@
+Faron:
+- .dir(<<S)
+- _Korok::D48
+
+- .dir(SW)
+- _Korok::D50
+
+- .dir(E>>)
+- _Korok::L07
+
+- .dir(SW)
+- _Korok::L19
+
+- .dir(E>)
+- _Korok::L20
+
+- _Shrine::ShaeKatha:
+    comment: Offer Farosh's Scale
+
+- _Discover<Spring of Courage>:
+    coord: [879.50, 123.00, 2388.00]
+
+- .dir(W>)
+- _Korok::L13
+
+- .dir(<W)
+- _Korok::L18
+- _Korok::L17
+
+- .dir(N> run)
+- _Korok::L12
+
+- .gale() .dir(S>> midar):
+    gale: 1
+- _Korok::L28
+
+- .dir(E)
+- _Korok::L29
+
+- .dir(E>>)
+- _Korok::L34
+
+- .dir(<<W)
+- _Korok::L35:
+    comment: pick up durian
+
+- .dir(S)
+- _Korok::L45
+
+- .dir(SE)
+- _Korok::L54
+
+- .dir(<E)
+- _Discover<Zonai Ruins>:
+    coord: [889.86, 124.08, 2937.35]
+
+- .dir(<<W)
+- _Korok::L56
+
+- .dir(S> run)
+- _Npc::Rito<Kass>:
+    coord: [815.25, 117.95, 3063.44]
+    comment: The Serpent's Jaws
+
+- .dir(S> run)
+- _Korok::L57
+
+- .dir(E>>)
+- _Korok::F24
+
+- _Discover<Sarjon Bridge>:
+    coord: [1025.15, 130.03, 3235.46]
+
+- _Korok::F23
+
+- _Material<Hyrule Bass,3>
+
+- .dir(NE)
+- _Korok::L58
+
+- .dir(N)
+- _Korok::L46
+
+- .dir(N)
+- _Korok::F02
+
+- .dir(N>)
+- _Boss::Talus::Stone:
+    comment: bomb or shock arrows
+    coord: [1257.12, 355.80, 2176.52]
+
+- .dir(SE)
+- _Korok::F05
+
+- .dir(<<N)
+- _Korok::F01
+
+- .dir(S>)
+- _Korok::F04:
+    comment: walk slowly over mud
+
+- .dir(<<N glide)
+- _Korok::F03
+
+- .dir(S>)
+- _Boss::Hinox:
+    comment: bomb arrow midair
+    coord: [1330.55, 180.38, 2623.94]
+
+- .dir(midair <S)
+- _Korok::F10
+
+- .dir(E>>)
+- _Korok::F16:
+    comment: .gale()
+    gale: 1
+
+- .dir(<<W)
+- _Korok::F15
+
+- .dir(E>>)
+- _Boss::Hinox::Red:
+    comment: bomb arrow
+    coord: [1493.39, 306.77, 3092.14]
+    notes: If you skipped F26 after Farosh, E> to get it now.
+
+- .dir(S>>)
+- _Korok::F25
+
+- .dir(SW)
+- _Tower::Faron
+
+- .dir(<S)
+- _Korok::F39
+
+- .dir(E> run)
+- _Korok::F40
+
+- .dir(E>>)
+- _Korok::F48
+
+- .dir(<<W)
+- _Korok::F55
+
+- .dir(W)
+- _Korok::F54
+
+- .dir(W)
+- _Boss::Talus::Stone:
+    comment: .fury()
+    fury: 1
+    coord: [1392.02, 107.03, 3727.59]
+
+- .dir(<W)
+- _Korok::F53
+
+- .dir(E>>)
+- _Korok::F56
+
+- .dir(E + midairs)
+- .!!(Enemy Camp):
+    icon: calamity
+    comment: .fury()
+    fury: 2
+    coord: [2097,3916.5]
+    notes: Take Back the Sea quest
+
+- _Tod::Night:
+    notes: For upcoming Stalnox.
+
+- .dir(N)
+- _Korok::F43
+
+- .dir(N>)
+- _Korok::F30
+
+- .dir(S>)
+- _Boss::Hinox::Stal:
+    coord: [2078.62, 110.22, 3450.66]
+    comment: rgc + arrows
+
+- .dir(W>)
+- _Korok::F35
+
+- .dir(NE)
+- _Material<Hearty Bass,5>:
+    coord: [1939,3292]
+- _Material<Hyrule Bass,5>
+
+- .dir(S>)
+- _Korok::F46
+
+- .dir(<<N)
+- _Korok::F42
+
+- .dir(W>>)
+- _Material<Energetic Rhino Beetle,5>:
+    coord: [1522,3337.5]
+    notes: Need 15. Backups in Kakariko.
+
+- .dir(SW run)
+- _Korok::F34
+
+- .dir(<E)
+- _Boss::Talus::Stone:
+    comment: Boulder Breaker
+    coord: [1690.73, 165.27, 3335.62]
+
+- .dir(N>)
+- _Korok::F28:
+    comment: .gale()
+    gale: 1
+
+- .dir(N)
+- _Korok::F27
+
+- .dir(N)
+- _Shrine::ShodaSah
+
+- .dir(S)
+- _Korok::F19:
+    notes: Equip Zora Armor
+
+- .dir(N)
+- _Korok::F17
+
+- .dir(E>)
+- _Korok::F20
+
+- .dir(E)
+- _Korok::F21
+
+- Remove all metal equipment
+
+- .dir(<<W)
+- _Korok::F29
+
+- .dir(SE run)
+- _Npc::Rito<Kass>:
+    coord: [2081.89, 287.42, 3226.31]
+    comment: Song of Storms
+
+- Equip metal armor/weapons
+
+- .dir(<<W)
+- _Shrine::QukahNata:
+    notes: Let the lightning hit you.
+

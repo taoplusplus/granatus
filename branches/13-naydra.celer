@@ -1,0 +1,118 @@
+Naydra:
+- .dir(<<E)
+- _Korok::N44:
+    line-color: rgb(74, 133, 247)
+
+- .dir(<N + midairs)
+- Begin free Naydra:
+    coord: [3965,1353]
+    notes: Shoot an eye before each of the following koroks
+
+- .dir(W>)
+- _Korok::N24
+
+- .dir(<S)
+- _Korok::N31
+
+- .dir(<W)
+- _Korok::N39
+
+- .dir(W> + midair)
+- _Korok::N21
+
+- .dir(E>)
+- _Korok::N29
+
+- .dir(<E)
+- Escape pool:
+    coord: [3241.75,1472.75]
+
+- _Korok::N30:
+    movements:
+        - to: [3229.03, 302.83, 1545.25]
+          away: true
+    notes: Stasis and bomb from a distance
+
+- .dir(run)
+- _Korok::N22
+
+- .dir(<E)
+- Shoot final eye
+
+- _Snap::Elite<Naydra>:
+    movements:
+        - to: [3965,1353]
+          warp: true
+
+- _Shrine::JitanSami:
+    line-color: white
+    comment: offer Naydra scale
+
+- .dir(S> + N midair)
+- _Korok::N18
+
+- .dir(E)
+- _Tod::Morning:
+    coord: [3968.75,1292]
+
+- _Material<Naydra Horn>
+
+- _Material<Naydra Claw>:
+    movements:
+        - to: [4160,1223]
+          away: true
+
+- .dir(NE)
+- _Material<Chillshroom,6>:
+    coord: [4127.29, 426.47, 1133.65]
+
+- _Korok::N19
+
+- .dir(W)
+- _Korok::N17
+
+- .dir(<S)
+- _Korok::N23
+
+- .dir(W>)
+- _Boss::Hinox::Red:
+    coord: [3250.94, 268.75, 1331.63]
+    comment: bomb arrows
+
+- _Snap::Quest<Lynel>
+
+- .dir(<N)
+- _Memory::LanayruRoad
+
+- .dir(S + N + midair)
+- _Boss::Hinox::Blue:
+    coord: [2990.90, 251.39, 787.92]
+
+- .fury():
+    fury: 3
+
+- _Equipment::Bow<Knight's Bow>:
+    comment: for Eldin
+
+- .dir(<W + midair)
+- _Korok::N13
+
+- .dir(W>)
+- _Korok::N11
+
+- .dir(S>)
+- _Boss::Hinox::Red:
+    coord: [2414.72, 304.69, 1177.84]
+    comment: 3 bomb + 3 arrow
+
+- .dir(E>)
+- _Korok::N20
+
+- .dir(N>)
+- _Korok::N15
+
+- .dir(E>> square)
+- _Korok::N16
+
+- .dir(S)
+- _Shrine::DowNaeh

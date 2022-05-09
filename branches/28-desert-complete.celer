@@ -1,0 +1,111 @@
+Desert Complete:
+- .dir(E>)
+- _Korok::W43:
+    line-color: rgb(255,105,180)
+
+- .dir(<E)
+- _Korok::W37
+
+- .dir(E>>)
+- _Korok::W44
+
+- .dir(<<E + N> midair)
+- _Korok::W35
+
+- Complete orb puzzle:
+    notes: .link(https://media.discordapp.net/attachments/303990410500374528/790049019690614794/Heroines_Map_Directions.png?width=811&height=676)
+
+- _Shrine::KorshOhu
+
+- .dir(S + climb)
+- _Korok::W40
+
+- .dir(N> + midair)
+- _Korok::W30
+
+- .dir(NW)
+- _Korok::W19
+
+- _Shrine::KayNoh
+
+- .dir(<<E glide)
+- _Korok::W15
+
+- _Material<Rushroom,4>:
+    comment: Blizzard Rod
+    coord: [-2812.53, 154.05, 2251.75]
+
+- _Npc<Sesami>:
+    coord: [-2797.53, 135.05, 2240.97]
+    comment: Missing in Action
+
+- _Material<Rushroom,4>:
+    comment: Great Eagle Bow
+    coord: [-2753.56, 154.99, 2225.98]
+
+- _Warp::Shrine::KuhTakkar
+
+- .dir(S)
+- Kill lizalfos
+- _Material<Lizalfos Tail,2>:
+    coord: [-3109.43, 546.22, 1322.94]
+    time-override: 999
+
+- .dir(<S)
+- _Korok::G22
+
+- .dir(N>>)
+- _Korok::G17
+
+- .dir(E)
+- _Boss::Talus::Frost:
+    coord: [-2919.99, 656.12, 1294.27]
+    comment: .fury()
+    fury: 3
+    notes: Collect gems
+
+- .dir(<E)
+- _Korok::G18
+
+- .dir(SE)
+- _Korok::G23
+
+- .dir(<W)
+- _Korok::G27
+
+- .dir(E>)
+- _Korok::G28
+
+- .dir(<<E)
+- _Korok::G24
+
+- _Npc<Flaxel>:
+    comment: Missing in Action
+    coord: [-2163.76, 249.00, 1707.54]
+
+- _Chest<5 Fire Arrow>
+
+- _Npc<Canolo>:
+    comment: Missing in Action
+    coord: [-2187.78, 207.99, 1691.46]
+
+- _Npc<Oliff>:
+    comment: Missing in Action
+    coord: [-2055.00, 209.05, 1742.00]
+
+- _Npc<Palme>:
+    comment: Missing in Action
+    coord: [-2063.50, 208.00, 1994.50]
+
+- .dir(S)
+- _Korok::W14
+
+- .dir(NE)
+- _Boss::Talus::Luminous:
+    coord: [-1896.00, 200.68, 2044.68]
+
+- .dir(<S)
+- _Korok::W26
+
+- .dir(Drop down)
+- _Shrine::JeeNoh

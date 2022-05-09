@@ -1,0 +1,117 @@
+Plateau 2:
+- .dir(N> turn)
+- _Npc<Hudson>:
+    coord: [3981.65, 233.41, -1599.11]
+    comment: 20 wood
+
+- .!!(Dupe/Transfer/Transmute):
+    notes: Blood moon will happen during this. That's ok.
+    var-change:
+        CourserBeeHoney: 5
+        HeartyBass: 5
+- .code(Round 1):
+    notes: These are all +5 dupes.
+- .rune(Apples → dragon horn)
+- .rune(Chillshroom → dragon horn)
+- .rune(Hylian shroom → dragon horn)
+- .rune(Stamella shroom → honey)
+- .rune(Bird egg → Hearty Bass)
+
+- .code(Round 2a):
+    notes: These are +1 dupes except for Farosh's Scale (+2)
+- .rune(Voltfruit → dragon part)
+- .rune(Ironshroom → dragon part)
+- .rune(Razorshroom → dragon part)
+- .rune(3 firefly → Farosh's Scale)
+
+- .code(Round 2b):
+    notes: If missing any parts, can always sell guardian parts instead.
+- .rune(Blue Nightshade → dragon part)
+- .rune(Chillfin → dragon part)
+- .rune(Sizzlefin → dragon part)
+
+- _Warp::SOR:
+    line-color: rgb(255,165,0)
+    time-override: 999
+
+- _Korok::P09
+
+- .dir(Clip out)
+- .dir(E)
+- _Korok::P11
+
+- .dir(NW)
+- _Korok::P10
+
+- .dir(W>>)
+- _Boss::Talus::Stone:
+    coord: [-1087.75, 179.14, 1663.18]
+    comment: .fury()
+    fury: 1
+
+- _Material<Courser Bee Honey,1>:
+    coord: [-1057.63, 188.00, 1628.47]
+
+- _Material<Apple,2>:
+    coord: [-1050.31, 188.78, 1631.98]
+    comment: IMPORTANT!
+    notes: You have no apples after transmuting and offering koroks are coming up.
+
+- .dir(E run)
+- _Korok::P04
+
+- .dir(S)
+- _Korok::P06
+
+- .dir(NE run)
+- _Material<Acorn,3>:
+    coord: [-930.78, 184.82, 1702.72]
+
+- .dir(E run)
+- _Korok::P05
+
+- .dir(NE)
+- _Korok::P02
+
+- .dir(NW run)
+- _Korok::P01
+
+- .dir(NW)
+- _Korok::C81
+
+- .dir(E> turn)
+- _Korok::C82
+
+- .dir(N>>)
+- _Memory::LakeKolomo
+
+- .dir(S)
+- _Korok::C83
+
+- .dir(SE square)
+- _Discover<Gatepost Town Ruins>:
+    coord: [-537.88, 121.27, 1445.48]
+
+- .dir(N>>)
+- _Korok::C76
+
+- .dir(N> run)
+- _Korok::C75
+
+- .dir(W square)
+- _Boss::Talus::Luminous:
+    coord: [-514.75, 127.49, 1181.74]
+    comment: .fury()
+    fury: 2
+
+- .dir(<NW)
+- _Korok::C69
+
+- .dir(midair N)
+- _Korok::C63
+
+- .dir(W)
+- _Korok::C62
+
+- .dir(W>>)
+- _Shrine::KaamYatak

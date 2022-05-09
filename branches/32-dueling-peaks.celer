@@ -1,0 +1,150 @@
+Dueling Peaks:
+- .dir(<E)
+- _Korok::D27
+
+- .dir(S square)
+- _Korok::D34
+
+- .dir(W DEFUSE)
+- _Korok::D33
+
+- .dir(W>)
+- _Korok::D32
+
+- .dir(S)
+- _Korok::D31:
+    comment: bomb arrow midair
+    notes: Midair strat only if not raining.
+
+- .dir(S>)
+- _Korok::D44
+
+- .dir(<W)
+- _Korok::P12
+
+- .dir(Drop down)
+- _Korok::P13
+
+- .dir(N>>)
+- _Discover<Outpost Ruins>:
+    coord: [-233.33, 113.99, 1671.11]
+
+- _Material<Rushroom,7>:
+    coord: [-181.62, 122.25, 1602.58]
+
+- .dir(S)
+- _Boss::Talus::Luminous:
+    comment: .fury()
+    fury: 2
+    coord: [-176.93, 132.59, 1771.62]
+
+- .dir(S)
+- _Korok::D43
+
+- .dir(<S + E midair)
+- _Korok::L03:
+    comment: Zora Armor
+
+- .dir(<S)
+- _Korok::L10:
+    comment: land and use Cryo blocks
+
+- .dir(E)
+- _Korok::L11
+
+- .dir(<S)
+- _Korok::L16
+
+- .dir(N)
+- _Material<Rushroom,5>:
+    coord: [312.54, 182.15, 2166.89]
+
+- _Korok::L05
+
+- .dir(E surf)
+- _Korok::L06
+
+- .dir(<N)
+- _Korok::L02
+
+- .dir(N)
+- _Korok::L01
+
+- _Boss::Talus::Stone:
+    comment: .fury()
+    fury: 1
+    coord: [359.34, 114.45, 1904.01]
+
+- .dir(SW)
+- _Korok::L04
+
+- .dir(<<N)
+- _Memory::WestNecluda
+
+- _Korok::D45:
+    comment: behind offering
+
+- .dir(NE)
+- _Korok::D35
+
+- .dir(<E)
+- _Korok::D36:
+    comment: pick up Blue Nightshade
+    notes: Gift of Nightshade quest
+
+- .dir(<S)
+- _Korok::D46
+
+- .dir(<E)
+- _Korok::D37:
+    comment: bomb arrow
+
+- .dir(E)
+- _Korok::D38
+
+- .dir(E>)
+- _Korok::D47
+
+- .dir(<<E)
+- _Korok::D39
+
+- .dir(E>)
+- _Shrine::ReeDahee
+
+- .gale() .dir(SCW):
+    gale: 1
+- _Shrine::SheeVenath
+
+
+- .dir(S + climb)
+- _Equipment::Weapon<Traveler's Sword>:
+    coord: [1282.48, 523.75, 1939.55]
+    comment: Weapon Connoisseur
+    notes: Need to get here before 5am. Backup in Kakariko later.
+- _Shrine::SheeVaneer
+
+- _Korok::D41:
+    movements:
+        - to: [1517.27, 400.25, 1850.08]
+          away: true
+    comment: bomb arrow from distance
+
+- .dir(E climb)
+- _Korok::D49
+
+- .dir(N)
+- _Korok::D40
+
+- .dir(N>>)
+- _Korok::D30
+
+- .dir(N>)
+- _Boss::Talus::Stone:
+    comment: midair bomb arrow
+    coord: [1465.91, 203.77, 1328.91]
+
+- .dir(midair W)
+- _Korok::D17
+
+- .dir(SW)
+- _Tower::DuelingPeaks

@@ -1,0 +1,46 @@
+Gerudo Town 2:
+- _Npc<Bozai>:
+    line-color: rgb(0,255,0)
+    coord: [-3750,2874]
+    comment: Snow Boots
+    notes: Eighth Heroine and Forgotten Sword quests
+
+- _Npc::Gerudo<Riju>:
+    coord: [-3892.04, 157.48, 2968.14]
+    comment: in throne room
+
+- Examine Thunderhelm
+
+- _Npc::Gerudo<Liana>:
+    coord: [-3912.83, 149.68, 2930.99]
+    comment: Search for Barta
+
+- _Npc::Gerudo<Laine>:
+    coord: [-3916.17, 149.18, 2877.34]
+    comment: Silent Swordswomen
+
+- _Npc::Gerudo<Rotana>:
+    coord: [-3877.78, 151.99, 2881.72]
+    comment: Seven Heroines
+
+- _Npc::Gerudo<Furosa>:
+    coord: [-3856.93, 152.43, 2856.37]
+    comment: Perfect Drink
+
+- _Npc::Gerudo<Dalia>:
+    coord: [-3833,2852.75]
+    comment: Mystery Polluter
+
+- .dir(N turn super)
+- _Npc::Gerudo<Anche>:
+    coord: [-3743.75, 146.81, 2304.44]
+    comment: ice
+
+- .dir(BLSS):
+    notes: Delivery strat .link(https://youtu.be/xdwRCszyc48?t=11542)
+
+- _Npc::Gerudo<Furosa>:
+    coord: [-3764.49, 141.00, 2699.75]
+    comment: deliver ice
+
+- _Warp::VahNaboris

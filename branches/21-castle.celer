@@ -1,0 +1,188 @@
+Hyrule Castle:
+- .dir(N drop down)
+- _Korok::X03:
+    line-color: rgb(255,255,255)
+
+- .dir(<E glide)
+- _Chest<Naydra's Scale>:
+    coord: [-182.29, 235.23, -1169.52]
+
+- .dir(E> run, drop down)
+- _Korok::X02
+
+- .dir(<<N run, drop down)
+- _Chest<Dinraal's Scale>:
+    coord: [-196.46, 153.20, -1218.59]
+
+- .dir(N>)
+- _Korok::K30
+
+- .dir(S delayed turn)
+- _Korok::X11:
+    time-override: 999
+
+- .dir(Run)
+- _Boss::Talus::Rare:
+    coord: [-136.65, 127.21, -956.26]
+    comment: .fury()
+    fury: 3
+
+- .dir(Take updraft)
+- _Chest<Shard of Farosh's Fang>:
+    coord: [-133.07, 170.48, -950.46]
+
+- .dir(Enter Library)
+- Kill lizalfos
+
+- _Material<Lizalfos Tail,2>
+
+- _Discover<King's Study>:
+    coord: [-172.98, 170.46, -1119.39]
+
+- _Tod::Night:
+    notes: Cancels blood moon by forcing it to occur while you're in Hyrule Castle.
+
+- _Shrine::SaasKosah
+
+- _Chest<Star Fragment>:
+    line-color: rgb(255, 255, 0)
+    coord: [-224.01, 104.73, -1177.87]
+    comment: under water
+
+- Kill Lizalfos
+- _Material<Lizalfos Tail,1.5>
+
+- .dir(Run)
+- _Korok::X01
+
+- .dir(<W)
+- _Korok::X04
+
+- .dir(Enter Lockup)
+- _Equipment::Weapon<Royal Guard's Claymore>:
+    coord: [-414.90, 127.54, -1087.77]
+
+- _Equipment::Weapon<Blizzard Rod>:
+    time-override: 999
+    coord: [-461.66, 128.27, -1063.01]
+
+- _Boss::Hinox::Stal:
+    coord: [-491.34, 126.08, -1009.82]
+    comment: .fury()
+    fury: 3
+
+- _Chest::Special<Hylian Shield>:
+    coord: [-501.57, 126.08, -1011.58]
+
+- .dir(Run out)
+- _Korok::X13
+
+- .dir(Backtrack) .gale():
+    gale: 1
+- _Korok::X08
+
+- .dir(Climb ladder)
+- Hit switch to turn on updraft
+- Kill lizalfos behind wall
+- _Material<Lizalfos Tail,1>
+- _Chest<Shard of Dinraal's Fang>:
+    coord: [-326.46, 151.16, -1002.40]
+
+- .dir(Take updraft) .gale():
+    gale: 2
+- _Discover<Zelda's Study>:
+    line-color: rgb(0,255,0)
+    coord: [-383.72, 273.58, -995.87]
+
+- _Material<Silent Princess,1>
+
+- _Snap::Quest<Guardian Skywatcher>
+
+- _Memory::HyruleCastle
+
+- .dir(Glide to balcony)
+- _Korok::X09
+
+- _Discover<Zelda's Room>
+
+- .dir(S>>)
+- _Korok::X14
+
+- .dir(<<W DEFUSE square)
+- _Korok::X17
+
+- .dir(<E)
+- _Korok::X12
+
+- .dir(<W)
+- _Korok::X16
+
+- .dir(Drop down)
+- _Discover<Second Gatehouse>
+
+- .dir(Glide down)
+- _Discover<Dining Hall>
+
+- _Material<Raw Meat>:
+    coord: [-108.37, 210.59, -848.95]
+- _Material<Raw Gourmet Meat>:
+    coord: [-152.50, 210.39, -821.58]
+- _Material<Rushroom,1>
+
+- .dir(Run)
+- Kill lizalfos behind wall
+- _Material<Lizalfos Tail,0.5>:
+    coord: [-152.03, 211.33, -899.09]
+    time-override: 999
+
+- .dir(Run back)
+- _Korok::X15
+
+- .dir(Clip, run out of bounds)
+- Kill lizalfos .fury():
+    coord: [-322.58, 192.35, -833.74]
+    comment: .fury()
+    fury: 3
+
+- _Korok::X19:
+    comment: fix ragdoll
+    notes: Ancient arrow chest optional.
+
+- _Chest<Shard of Naydra's Fang>:
+    coord: [-356.28, 172.41, -810.58]
+
+- .dir(Run outside) .gale():
+    gale: 1
+- _Discover<First Gatehouse>:
+    coord: [-351.61, 217.85, -830.25]
+
+- .dir(Run)
+- _Korok::X18
+
+- .dir(E>)
+- _Korok::X23
+
+- .dir(Drop down)
+- _Discover<Observation Room>:
+    coord: [-255.47, 211.39, -764.95]
+- _Korok::X21
+- _Korok::X22
+
+- .dir(E glide)
+- _Korok::X20
+
+- .dir(S>>)
+- _Korok::X24
+
+- .dir(SW drop down)
+- _Korok::C16
+
+- _Korok::X25
+
+- .dir(<S super)
+- _Korok::C33
+
+- .dir(S>> super)
+- _Korok::C35
+
+- _Memory::SacredGrounds

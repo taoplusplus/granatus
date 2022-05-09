@@ -1,0 +1,54 @@
+Vah Naboris:
+- .dir(<W)
+
+- .loc(Yiga Hideout):
+    icon: house-plus
+    line-color: rgb(204,0,204)
+    coord: [-3510.46, 442.51, 1297.31]
+
+- Enter Kohga fight
+
+- _Snap::Elite<Kohga>:
+    coord: [-3451.00, 440.69, 1331.50]
+
+- _Chest::Special<Thunderhelm>
+
+- _Warp::Shrine::DaqoChisay
+
+- _Shrine::DaqoChisay
+
+- _Npc<Riju>:
+    coord: [-3868.85, 166.67, 2948.96]
+    comment: on balcony, memory
+
+- .dir(W> super)
+- _Npc<Riju>:
+    coord: [-3420.68, 189.82, 3118.97]
+    comment: at outpost
+
+- Begin enter Naboris
+
+- .dir(SE surf)
+- _Npc<Pokki>:
+    coord: [-2968.22, 137.69, 3775.00]
+    comment: Perfect Drink
+
+- .dir(E + midair)
+- Enter Naboris:
+    icon: naboris-enter
+    coord: [-2754.62, 112.53, 3749.44]
+
+- .gale():
+    gale: 2
+
+- _Snap::Quest<Guardian Scout>:
+    comment: Guardian Slideshow
+
+- _Snap::Elite<Thunderblight>:  
+    notes: 1-cycle .link(https://clips.twitch.tv/MushyArtisticDoveNinjaGrumpy-l6z6o9QfgYwGN6FW)
+
+- Urbosa's Fury:
+    icon: naboris-done
+    movements:
+        - to: [-3772,2851]
+          warp: true

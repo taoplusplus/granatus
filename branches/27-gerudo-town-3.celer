@@ -1,0 +1,46 @@
+Gerudo Town 3:
+- .dir(N> turn)
+- _Npc<Bozai>:
+    # line-color: rgb(0,255,0)
+    coord: [-3750,2874]
+    comment: Sand and Snow Boots
+    notes: Eighth Heroine and Forgotten Sword quests
+
+- .dir(<<W)
+- _Korok::W42
+
+- .dir(W drop down)
+- _Npc::Gerudo<Calyban>:
+    comment: Mystery Polluter
+    coord: [-3915.29, 169.20, 2954.60]
+
+- _Npc::Gerudo<Liana>:
+    comment: Search for Barta
+    coord: [-3912.83, 149.68, 2930.99]
+
+- _Npc::Gerudo<Dalia>:
+    coord: [-3833,2852.75]
+    comment: Mystery Polluter
+    notes: Get here before 8pm
+
+- _Npc::Gerudo<Isha>:
+    comment: Tools of the Trade
+    coord: [-3834.85, 149.52, 2875.26]
+
+- _Shop<Arrow Shop>:
+    coord: [-3859.23, 149.24, 2916.02]
+    comment: buy all
+
+- _Npc::Gerudo<Malena>:
+    comment: Medicinal Molduga
+    coord: [-3866.5,2939.5]
+    notes: Get here before 10pm
+
+- _Npc::Gerudo<Riju>:
+    coord: [-3892.04, 157.48, 2968.14]
+    comment: Thunder Helm
+
+- _Discover<Gerudo Secret Club>:
+    comment: code 3-3-3-4
+    coord: [-3792,2955.25]
+    notes: Secret Club's Secret

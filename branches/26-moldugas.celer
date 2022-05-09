@@ -1,0 +1,78 @@
+Moldugas:
+- .dir(S>)
+- _Korok::W13
+
+- .dir(<S)
+- _Korok::W18
+
+- .dir(<<W)
+- _Korok::W25
+
+- .dir(<S)
+- _Boss::Molduga:
+    coord: [-4832.61, 133.21, 2800.42]
+    comment: .fury() + rgc
+    fury: 2
+
+- _Material<Molduga Gut>:
+    comment: Medicinal Molduga
+    notes: Picking up all parts here makes buying enough mon from Kilton later very safe.
+
+- Light fires
+
+- _Shrine::ThoKayu
+
+- .dir(<<S)
+- _Boss::Molduga:
+    coord: [-4555.62, 137.14, 3256.35]
+    comment: .fury() + rgc
+    fury: 1
+
+- .dir(<W)
+- _Korok::W51
+
+- .dir(S)
+- _Korok::W65
+
+- _Snap::Quest<Gerudo Great Skeleton>:
+    coord: [-4863.96, 146.09, 3804.65]
+
+- _Material<Silent Princess,2>:
+    coord: [-4867.08, 122.88, 3838.09]
+
+- .loc(Great Fairy Fountain):
+    coord: [-4870.20, 125.00, 3824.80]
+
+- _Shrine::HawaKoth
+
+- _Npc::Gerudo<Barta>:
+    comment: Search for Barta
+    coord: [-4818.86, 130.23, 3713.28]
+
+- .dir(<<E)
+- _Korok::W55
+
+- .dir(S>)
+- _Korok::W61
+
+- .dir(E>>)
+- _Korok::W66
+
+- _Boss::Molduga:
+    coord: [-4191.12, 126.91, 3797.45]
+    comment: rgc
+
+- .dir(<<E)
+- _Boss::Molduga:
+    coord: [-3799.06, 118.76, 3653.43]
+    comment: rgc
+
+- .dir(N)
+- _Korok::W57
+
+- .dir(<N)
+- _Korok::W56
+
+- .dir(N>)
+- .!!(Sand Seal Race)
+- _Shrine::RaqaZunzo

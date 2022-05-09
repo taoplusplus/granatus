@@ -1,0 +1,67 @@
+Vah Medoh:
+     - .dir(BLSS)
+
+     - _Equipment::Bow<Forest Dweller's Bow>:
+          line-color: yellow
+          coord: [-2342.64, 348.37, 680.81]
+
+     - .dir(N>> super)
+
+     - _Material<Hearty Durian,10>:
+          coord: [-2190.5,441]
+     
+     - _Material<Wood>:
+          comment: from all durian trees
+
+     - .dir(W)
+
+     - _Material<Rushroom,3>:
+          coord: [-2297.00, 462.74, 447.00]
+
+     - _Korok::R60:
+          notes: Kill the birds here for extra food
+
+     - _Shrine::MoggLatan:
+          comment: Forest Dweller's Bow
+
+     - .dir(BLSS)
+
+     - _Npc<Kaneli>:
+          coord: [-3627.20, 323.57, -1830.81]
+
+     - _Npc<Saki>:
+          coord: [-3606.64, 323.62, -1823.03]
+          comment: Revali memory
+
+     - _Shop<Shop>:
+          coord: [-3643.01, 290.64, -1823.43]
+          comment: sell parts, buy everything
+          notes: Drop 5 cores and sell rest OR sell all gears OR sell 600 shafts
+
+     - .dir(<N turn super)
+
+     - _Korok::T02
+
+     - _Cook<Hearty Durian>:
+          comment: Save ONE durian (quest)
+
+     - _Cook<Cold Resist>:
+          comment: 2 sunshroom, 2 pepper
+
+     - _Equipment::Bow<Arrows x10>:
+          notes: Ignore Swallow Bow, not enough inventory space for it
+
+     - _Npc<Teba>
+
+     - _Chest<Falcon Bow>
+
+     - Enter Medoh:
+          icon: medoh-enter
+          notes: Medoh strats .link(https://youtu.be/8Q-vJBSBhV0?t=1358)
+
+     - _Material<Ancient Core,1>:
+          notes: Skip if you got cores from rupee printer
+
+     - Revali's Gale:
+          icon: medoh-done
+          notes: fast Windblight .link(https://youtu.be/34p2QkkwJc0)

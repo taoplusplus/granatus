@@ -1,0 +1,116 @@
+Gerudo Town 1:
+- .dir(S> turn super + S midair)
+- _Korok::G19:
+    line-color: rgb(196,196,196)
+
+- .dir(<<N + W midair)
+- _Korok::G13
+
+- .dir(<N + W midair)
+- _Korok::G10
+
+- .dir(W + S midair)
+- _Korok::G12
+
+- .dir(<<S)
+- _Material<Luminous Stones>:
+    coord: [-3060.00, 576.11, 1216.91]
+
+- _Shrine::KuhTakkar:
+    comment: unfreeze with fire arrows
+
+- .dir(S)
+- .loc(Lizalfos Camp):
+    movements:
+        - to: [-3109.43, 546.22, 1322.94]
+        - to: [-3075.80, 550.12, 1363.40]
+    notes: If no extra GEB, use this strat .link(https://discord.com/channels/269611402854006785/298175033224724500/948796661818339369)
+
+- _Material<Lizalfos Tail,2>
+- _Equipment::Weapon<Dragonbone Moblin Club>
+- _Equipment::Bow<2 Steel Lizal Bow>
+
+#- .dir(<<W)
+#- _Chest<Radiant Shield>:
+#    coord: [-3249.24, 506.41, 1463.64]
+#    comment: on bridge
+
+- .dir(W)
+- _Equipment::Bow<Duplex Bow>:
+    coord: [-3747.82, 431.31, 1410.36]
+    comment: kill yiga footsoldiers
+
+
+- .gale() .dir(midair S):
+    gale: 1
+
+- .loc(Gerudo Stash)
+
+- _Equipment::Weapon<Edge of Duality>:
+    coord: [-3788.38, 467.82, 1674.42]
+- _Chest<Bomb Arrows x5>
+- _Equipment::Shield<Radiant Shield>
+
+- .dir(SE)
+- _Tower::Gerudo
+- _Npc<Kass>:
+    coord: [-3655.84, 471.90, 1837.15]
+    comment: Sign of the Shadow
+
+- .dir(S>)
+- _Korok::W29
+
+- .dir(S> turn)
+- _Npc<Benja>:
+    coord: [-3804.64, 149.50, 2818.36]
+
+- Activate Daqo Chisay:
+    icon: shrine
+    coord: [-3816.5,2818]
+
+- .dir(<E turn + E midair)
+- _Npc<Vilia>:
+    coord: [-3259.27, 163.93, 2611.54]
+    comment: buy clothes
+
+- .dir(BLSS)
+- _Shop<Arrow Shop>:
+    coord: [-3859.23, 149.24, 2916.02]
+    comment: buy all
+
+- _Tod::Morning:
+    coord: [-3832.79, 148.98, 2948.17]
+    notes: for ice house time of day
+
+- .!!(Bow Dupe/Transmute):
+    notes: .link(https://youtu.be/npppfOXFgD4)
+
+- .rune(Apples → Farosh horns)
+
+- .rune(Lizalfos horns → Farosh claws)
+
+- .rune(Blue nightshade → Lizalfos tails):
+    var-change:
+        LizalfosTail: 7
+
+- .rune(Lizalfos talons → Farosh horns)
+
+- _Cook<Speed Food>:
+    comment: 3 seed, carrot, horn
+
+- _Cook<Enduring Food>
+
+- _Npc::Gerudo<Riju>:
+    coord: [-3892.04, 157.48, 2968.14]
+    comment: in throne room
+
+- .dir(<W turn)
+- _Korok::W47
+
+- .dir(N)
+- _Korok::W36
+
+- .dir(midair SW)
+- _Korok::W28
+
+- _Warp::Shrine::KuhTakkar

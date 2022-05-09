@@ -1,0 +1,62 @@
+Farosh:
+- .dir(SW)
+- _Korok::F06
+    # line-color: rgb(164,0,0)
+
+- .dir(SW)
+- _Korok::F09
+
+- .dir(W)
+- _Korok::F08
+
+- .dir(<E)
+- _Korok::F12
+
+- .dir(<W)
+- _Korok::F11
+
+- .dir(SW)
+- Setup campfire, drop torch:
+    coord: [1730.5,2969.5]
+
+- _Snap::Elite<Farosh>:
+    comment: scale, horn, claw
+
+- .dir(S>)
+- _Korok::F26:
+    notes: Beetles despawn at 7am, skip this if it's getting late
+
+- .dir(SW)
+- _Material<Energetic Rhino Beetle,5>:
+    movements:
+        - to: [1553.27, 179.88, 3335.27]
+        - to: [1529.09, 177.64, 3322.31]
+        - to: [1499.71, 183.49, 3344.76]
+        - to: [1484.92, 177.54, 3329.52]
+
+- .dir(<S)
+- _Equipment::Weapon<Woodcutter's Axe>:
+    coord: [1552.29, 196.63, 3533.36]
+    comment: on stable
+    notes: Quest item
+
+- _Korok::F41:
+    comment: bomb or fire arrow
+
+- _Npc<Cima>:
+    coord: [1540.08, 165.97, 3531.94]
+    comment: talk x2, rubber helm
+    notes: Wakes up at 7am
+
+- Break boxes behind stable:
+    notes: For random transmute material
+
+- _Material<Mighty Banana,6>:
+    coord: [1582.85, 169.19, 3569.16]
+    notes: For offering koroks later
+
+- _Shrine::ShaiUtoh:
+    comment: Ancient Core
+    notes: Skip if you have 3 cores
+
+- _Warp::Shrine::TalohNaeg

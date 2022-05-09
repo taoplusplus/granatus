@@ -1,0 +1,67 @@
+Rupee Printer:
+
+- .dir(BLSS)
+
+- .loc(Hyrule Castle balcony)
+
+- _Chest<Ancient Arrows>:
+     coord: [-254.00, 209.67, -742.37]
+
+- _Material<Arrow x5>
+
+- _Equipment::Bow<Royal Bow>:
+     coord: [-252.19, 210.48, -741.07]
+
+- .dir(E>> super)
+
+- _Korok::C29
+
+- _Npc<Ruined Guardian>:
+     coord: [90.46, 133.68, -462.33]
+     comment: drop down
+
+- .!!(Select Magnesis, SAVE):
+     notes: Smich's rupee printer tutorial .link(https://youtu.be/FPuzVW2aXl8)
+
+- Reload until good combination:
+     notes: Take elite pics for shaft and screw/spring
+
+- _Korok::C28
+
+- .dir(Push guardian):
+     movements:
+          - to: [-69.5,-401]
+          - to: [-71.5,-307.5]
+          - to: [-167,-306.5]
+
+- _Korok::C32
+
+- Kill guardian:
+     icon: calamity
+     # coord: 
+     comment: ancient arrow
+     notes: Every core you get lets you skip a shrine chest; need 15 springs before Akkala Tech Lab
+     movements:
+          - to: [-254.52, 125.34, -193.39]
+
+- Kill guardian:
+     icon: calamity
+     comment: ancient arrow
+     movements:
+          - to: [-536,-75]
+          - to: [-722.52, 123.65, -216.10]
+
+- Set up guardian:
+     coord: [-917,-304.5]
+     notes: How to position the guardian .link(https://twitter.com/johnny_decuyper/status/1349002231396192256)
+
+- .dir(W and glide back):
+     notes: Triggers guardian parts .link(https://imgur.com/a/r7ZYXh0)
+
+- Collect guardian parts
+
+- _Korok::C30
+
+- (==) After auto-save, trigger and cancel a controller swap to be able to safely warp away without crashing the game.
+
+- _Warp::Shrine::KehNamut

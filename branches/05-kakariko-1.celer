@@ -1,0 +1,70 @@
+Kakariko 1:
+- .dir(<E turn)
+
+- .!!(Opening Cutscene):
+    line-color: rgb(255,0,0)
+    icon: memory
+    coord: [-1023.75,1796.5]
+    notes: Time of day cycle begins
+
+- .dir(BLSS)
+
+- _Shrine::KayaWan:
+    comment: Ancient Core
+    notes: Select CRYO before entering shrine; skip this core if you have 4
+
+- .dir(W> super)
+
+- _Shrine::DakaTuss
+
+- .dir(S + E + S)
+
+- _Shop<Stealth Set>:
+    coord: [1856.78, 224.74, 979.34]
+    notes: For frogs, beetles, crickets, Oaki, and lizards
+
+- _Npc<Paya and Impa>:
+    movements:
+        - to: [1784.43, 228.91, 986.46]
+        - to: [1772.71, 229.43, 984.31]
+
+- _Tod::Morning:
+    coord: [1800.25, 219.63, 1012.57]
+    notes: Gets beetle to spawn
+
+- .!!(Beetle Transmute):
+    icon: bow
+    comment: equip FDB and shock arrow
+    notes: 2-bow overload, dupe GEB if possible
+
+- _Shop<Produce Shop>:
+    coord: [1792.02, 222.40, 1028.39]
+    comment: carrots, eggs, gut; peppers
+
+- _Material<Energetic Rhino Beetle,6>
+
+- _Shop<Arrow Shop>:
+    coord: [1825.55, 224.39, 1045.11]
+    comment: buy all
+
+- _Npc<Rola>:
+    coord: [1830.49, 222.41, 1044.89]
+    comment: Arrows of Burning Heat
+
+- _Npc<Goddess Statue>:
+    coord: [1840.12, 218.54, 997.89]
+    comment: 2 hearts
+
+- .dir(N)
+
+- Activate Ta'loh Naeg:
+    coord: [1842,891]
+    icon: shrine
+
+- .dir(N)
+
+- _Material<Silent Princess,3>:
+    coord: [1846.14, 327.67, 820.96]
+
+- _Material<Blue Nightshade,6>:
+    notes: for transmuting

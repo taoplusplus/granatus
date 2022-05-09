@@ -1,0 +1,107 @@
+---
+_project:
+    authors:
+        - TaoPlusPlus
+    description: ""
+    name: New Granatus
+    url: ""
+    version: 0.1.0
+_route:
+    - Plateau 1:
+        - __use__ Plateau
+    - Rupee Printer:
+        - __use__ Rupee Printer
+    - Vah Medoh:
+        - __use__ Vah Medoh
+    - Rito Stable:
+        - __use__ Rito Stable
+    - Kakariko 1:
+        - __use__ Kakariko 1
+    - Hateno 1:
+        - __use__ Hateno 1
+    - Farosh:
+        - __use__ Farosh
+    - Hestu:
+        - __use__ Hestu
+    - Gerudo Town 1:
+        - __use__ Gerudo Town 1
+    - Vah Naboris:
+        - __use__ Vah Naboris
+    - Gerudo Town 2:
+        - __use__ Gerudo Town 2
+    - East Desert:
+        - __use__ Perfect Drink
+    - Naydra:
+        - __use__ Naydra
+    - Vah Ruta:
+        - __use__ Vah Ruta
+    - Akkala Tower:
+        - __use__ Akkala Tower
+    - Eldin Tower:
+        - __use__ Eldin Tower
+    - Goron City:
+        - __use__ Goron City
+    - Dinraal:
+        - __use__ Dinraal
+    - Vah Rudania:
+        - __use__ Vah Rudania
+    - Korok Forest:
+        - __use__ Korok Forest
+    - Hyrule Castle:
+        - __use__ Hyrule Castle
+    - Blood Moon:
+        - __use__ Blood Moon
+    - Plateau 2:
+        - __use__ Plateau 2
+    - Gerudo Canyon:
+        - __use__ Gerudo Canyon
+    - Gerudo Highlands:
+        - __use__ Gerudo Highlands
+    - Moldugas:
+        - __use__ Moldugas
+    - Gerudo Town 3:
+        - __use__ Gerudo Town 3
+    - Desert Complete:
+        - __use__ Desert Complete
+    - Lake Tower:
+        - __use__ Lake Tower
+    - Horse Minigames:
+        - __use__ Horse Minigames
+    - Hyrule Field 1:
+        - __use__ Hyrule Field 1
+    - Dueling Peaks:
+        - __use__ Dueling Peaks
+    - Faron:
+        - __use__ Faron
+    - Lurelin:
+        - __use__ Lurelin
+    - Wetlands:
+        - __use__ Wetlands
+    - Castle Town Ruins:
+        - __use__ Castle Town Ruins
+    - Ridgeland:
+        - __use__ Ridgeland
+    - Satori Mountain:
+        - __use__ Satori Mountain
+    - Tabantha:
+        - __use__ Tabantha
+    - Rito Village:
+        - __use__ Rito Village
+    - Hebra:
+        - __use__ Hebra
+    - Eldin Canyon:
+        - __use__ Eldin Canyon
+    - Akkala Complete:
+        - __use__ Akkala Complete
+    - Eventide:
+        - __use__ Eventide
+    - Kakariko 3:
+        - __use__ Kakariko 3
+    - Hateno 2:
+        - __use__ Hateno 2
+    - Lanayru Complete:
+        - __use__ Lanayru Complete
+    - Gift from the Monks:
+        - __use__ Gift from the Monks
+    - Endgame:
+        - __use__ Endgame

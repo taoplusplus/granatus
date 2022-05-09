@@ -1,0 +1,68 @@
+Rito Stable:
+    - _Material<Cold Darner,2>:
+        line-color: rgb(255,128,0)
+        movements:
+            - to: [-3565.625,-1817.375]
+              warp: true
+
+    - _Npc<Kaneli>:
+        coord: [-3627.20, 323.57, -1830.81]
+
+    - _Chest::Special<Great Eagle Bow>:
+        notes: DON'T use until duping
+
+    - _Shrine::AkhVaquot:
+        comment: Ancient Core
+        notes: Skip this core if you already have 3 cores
+
+    - .dir(W turn)
+
+    - _Npc<Kheel>:
+        coord: [-3979.33, 271.21, -1751.18]
+        comment: Warbler's Nest, Find Kheel
+
+    - .dir(E> super)
+
+    - _Chest<Shock Arrow x5>:
+        coord: [-3557.68, 254.12, -1503.59]
+
+    - .dir(NE)
+
+    - _Material<Wildberry,4>:
+        coord: [-3288.875,-1794.375]
+        comment: Mystery Polluter
+        notes: DON'T eat these.
+
+    - _Npc<Beedle>:
+        coord: [-3255.57, 224.47, -1757.63]
+        comment: arrows, 1 darner, fireflies
+        notes: Talk twice so that you get the "customer appreciation" ancient arrow
+
+    - _Material<Wildberry,6>:
+        coord: [-3219.54, 226.45, -1774.04]
+        movements:
+            - to: [-3219.54, 226.45, -1774.04]
+            - to: [-3227.87, 225.97, -1730.82]
+        comment: and peppers
+
+    - _Material<Wood>:
+        comment: and hylian shrooms
+
+    - .!!(SAVE before fighting octoroks)
+
+    - _Material<Voltfin>:
+        movements:
+            - to: [-3285.03, 224.99, -1660.62]
+            - to: [-3316.18, 224.91, -1644.00]
+            - to: [-3326.89, 224.76, -1625.51]
+        notes: If you don't get a voltfin (quest), reload
+
+    - _Material<Wood>:
+        coord: [-3229,-1749.5]
+        comment: another round
+
+    - .dir(<S)
+
+    - _Korok::T19
+
+    - _Warp::Shrine::KehNamut

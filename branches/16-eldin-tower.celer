@@ -1,4 +1,5 @@
 Eldin Tower:
+- .dir(N drop down)
 - _Korok::A40:
     line-color: rgb(0,196,0)
 
@@ -74,7 +75,7 @@ Eldin Tower:
 
 - _Boss::Hinox::Blue:
     coord: [3288.75, 323.08, -1256.24]
-    comment: bomb arrows
+    comment: Bomb arrows
 
 - .dir(<W)
 - _Korok::A50
@@ -83,7 +84,8 @@ Eldin Tower:
 - _Korok::E39
 
 - .dir(<N)
-- _Shrine::SahDahaj
+- _Shrine::SahDahaj:
+    notes: .link([Shrine strat]https://youtu.be/MZqANcvFr4c?t=20103)
 
 - .dir(N)
 - _Korok::E34
@@ -100,8 +102,7 @@ Eldin Tower:
 - .dir(SE square)
 - _Korok::E33
 
-- .gale():
+- .gale() .dir(E midairs):
     gale: 1
 
-- .dir(E midairs)
 - _Tower::Eldin

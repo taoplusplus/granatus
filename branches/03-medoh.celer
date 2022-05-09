@@ -25,7 +25,7 @@ Vah Medoh:
           notes: Kill the birds here for extra food.
 
      - _Shrine::MoggLatan:
-          notes: .link(https://youtu.be/MZqANcvFr4c?t=23086)
+          notes: .link([Shrine strat]https://youtu.be/MZqANcvFr4c?t=23086)
 
      - .dir(BLSS)
 
@@ -60,13 +60,13 @@ Vah Medoh:
 
      - Enter Medoh:
           icon: medoh-enter
-          notes: Medoh strats .link(https://youtu.be/8Q-vJBSBhV0?t=1358)
+          notes: .link([Medoh strats]https://youtu.be/8Q-vJBSBhV0?t=1358)
 
      - _Material<Ancient Core,1>
 
      - .boss(Windblight Ganon):
           icon: ganon
-          notes: Fast Windblight .link(https://youtu.be/34p2QkkwJc0)
+          notes: .link([Fast Windblight]https://youtu.be/34p2QkkwJc0)
 
      - Revali's Gale:
           icon: medoh-done

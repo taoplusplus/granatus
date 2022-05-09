@@ -18,14 +18,14 @@ Gerudo Town 1:
 
 - _Shrine::KuhTakkar:
     comment: Unfreeze with 7 fire arrows
-    notes: .link(https://youtu.be/MZqANcvFr4c?t=11386)
+    notes: .link([Shrine strat]https://youtu.be/MZqANcvFr4c?t=11386)
 
 - .dir(S)
 - .loc(Lizalfos Camp):
     movements:
         - to: [-3109.43, 546.22, 1322.94]
         - to: [-3075.80, 550.12, 1363.40]
-    notes: If no extra GEB, use this strat .link(https://discord.com/channels/269611402854006785/298175033224724500/948796661818339369)
+    notes: .link([If no extra GEB, use this strat]https://discord.com/channels/269611402854006785/298175033224724500/948796661818339369)
 
 - _Material<Lizalfos Tail,2>
 #- _Equipment::Weapon<Dragonbone Moblin Club>
@@ -85,7 +85,7 @@ Gerudo Town 1:
     notes: For ice house time of day.
 
 - .!!(Bow Dupe/Transmute):
-    notes: .link(https://youtu.be/npppfOXFgD4)
+    notes: .link([Example]https://youtu.be/npppfOXFgD4)
 
 - .rune(Apples → Farosh horns)
 

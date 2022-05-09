@@ -4,7 +4,7 @@ Vah Rudania:
     line-color: rgb(255,192,203)
     icon: rudania-memory
     coord: [1713.95, 498.05, -2446.92]
-    comment: memory
+    comment: Daruk memory
 
 - .dir(E)
 - _Korok::E16
@@ -18,12 +18,13 @@ Vah Rudania:
     comment: Death Mountain's Secret
 
 - .dir(NE)
-- _Shrine::DaqaKoh
+- _Shrine::DaqaKoh:
+    notes: .link([Shrine strat]https://youtu.be/MZqANcvFr4c?t=19375)
 
 - .dir(E>>)
 - .enemy(Kill 2 moblins):
     icon: boss-dlc
-    comment: rescue Yunobo
+    comment: Rescue Yunobo
     coord: [2142.43, 634.02, -2288.29]
 
 - Enter Rudania:
@@ -33,13 +34,14 @@ Vah Rudania:
         - to: [2502.61, 667.95, -2270.26]
         - to: [2701.02, 726.21, -2363.06]
         - to: [2794.50, 774.84, -2657.93]
-    comment: ancient arrow everything
+    comment: Ancient arrow everything
     notes: Last chance for 10 amber.
 
 - .gale():
     gale: 1
 
-- _Snap::Elite<Fireblight>
+- _Snap::Elite<Fireblight>:
+    notes: .link([1-cycle Fireblight]https://twitter.com/bings_f/status/1376068228498157570)
 
 - Daruk's Protection:
     line-color: rgb(255,0,0)
@@ -93,7 +95,7 @@ Vah Rudania:
 - _Boss::Talus::Igneo:
     coord: [2141.56, 559.13, -2178.47]
     comment: Boulder Breaker
-    notes: Check for 10 luminous stones, collect gems
+    notes: Check for 10 luminous stones, collect gems.
 
 - .dir(<<S glide)
 - _Korok::E21
@@ -101,9 +103,7 @@ Vah Rudania:
 - .dir(E>>)
 - _Boss::Talus::Igneo:
     coord: [2372.52, 507.89, -1998.62]
-    comment: collect gems
-
-- .fury():
+    comment: .fury() Collect gems
     fury: 3
 
 - .gale():
@@ -128,7 +128,6 @@ Vah Rudania:
 - .dir(midair N>)
 - _Korok::K31
 
-- .gale():
+- .gale() .dir(W midair):
     gale: 1
-- .dir(midair W)
 - _Tower::Woodland

@@ -7,19 +7,20 @@ Kakariko 1:
 #    coord: [-1023.75,1796.5]
 #    notes: Time of day cycle begins
 
-- .dir(BLSS)
+- .dir(BLSS):
+    notes: WB <E turn to opening cutscene if delaying time of day until now.
 
 - _Shrine::KayaWan:
     line-color: rgb(255,0,0)
     comment: Ancient Core (.v(AncientCore))
     var-change:
         AncientCore: 1
-    notes: .link(https://youtu.be/MZqANcvFr4c?t=1899)
+    notes: .link([Shrine Strat]https://youtu.be/MZqANcvFr4c?t=1899)
 
 - .dir(W> super)
 
 - _Shrine::DakaTuss:
-    notes: .link(https://youtu.be/MZqANcvFr4c?t=2040)
+    notes: .link([Shrine Strat]https://youtu.be/MZqANcvFr4c?t=2040)
 
 - .dir(S, E + S midair)
 
@@ -39,7 +40,7 @@ Kakariko 1:
 - .!!(Beetle Transmute):
     icon: bow
     comment: Equip FDB and shock arrow
-    notes: 2-bow overload, dupe GEB if possible .link(https://youtu.be/gQH8hwsckaM?t=3674)
+    notes: .link([2-bow overload, dupe GEB if possible]https://youtu.be/gQH8hwsckaM?t=3674)
 
 - _Shop<Produce Shop>:
     coord: [1792.02, 222.40, 1028.39]

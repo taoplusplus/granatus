@@ -22,7 +22,7 @@ Rupee Printer:
 
 - _Npc<Ruined Guardian>:
      coord: [90.46, 133.68, -462.33]
-     notes: Smich's rupee printer tutorial .link(https://youtu.be/FPuzVW2aXl8)
+     notes: .link([Smich's rupee printer tutorial]https://youtu.be/FPuzVW2aXl8)
 
 - .!!(Select Magnesis, SAVE):
      notes: Ideal combos are shaft+part or core+part. Shaft+screw and shaft+spring combos do not give enough rupees so you'll need to take elite pictures.
@@ -55,10 +55,10 @@ Rupee Printer:
 
 - Set up guardian:
      coord: [-917,-304.5]
-     notes: How to position the guardian .link(https://twitter.com/johnny_decuyper/status/1349002231396192256)
+     notes: .link([How to position the guardian]https://twitter.com/johnny_decuyper/status/1349002231396192256)
 
 - .dir(W and glide back):
-     notes: Triggers guardian parts .link(https://imgur.com/a/r7ZYXh0)
+     notes: .link([Triggers guardian parts]https://imgur.com/a/r7ZYXh0)
 
 - Collect guardian parts
 

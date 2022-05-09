@@ -7,7 +7,7 @@ Vah Naboris:
     coord: [-3510.46, 442.51, 1297.31]
 
 - Enter Kohga fight:
-    notes: .link(https://youtu.be/8Q-vJBSBhV0?t=3143)
+    notes: .link([Tutorial]https://youtu.be/8Q-vJBSBhV0?t=3143)
 
 - _Snap::Elite<Kohga>:
     coord: [-3451.00, 440.69, 1331.50]
@@ -46,7 +46,7 @@ Vah Naboris:
     comment: Guardian Slideshow
 
 - _Snap::Elite<Thunderblight>:  
-    notes: 1-cycle .link(https://clips.twitch.tv/MushyArtisticDoveNinjaGrumpy-l6z6o9QfgYwGN6FW)
+    notes: .link([1-cycle Thunderblight]https://clips.twitch.tv/MushyArtisticDoveNinjaGrumpy-l6z6o9QfgYwGN6FW)
 
 - Urbosa's Fury:
     icon: naboris-done

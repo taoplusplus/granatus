@@ -42,9 +42,7 @@ Akkala Tower:
 - .dir(SW)
 - _Boss::Hinox::Blue:
     coord: [2930.51, 312.54, -298.40]
-    comment: fury, 4 bomb
-
-- .fury():
+    comment: .fury() + 4 bomb arrow
     fury: 1
 
 - _Material<Fleet Lotus Seed,6>:
@@ -63,9 +61,7 @@ Akkala Tower:
 - .dir(<E turn super)
 - _Boss::Talus::Luminous:
     coord: [3992.27, 353.03, -158.82]
-    comment: collect gems
-
-- .fury():
+    comment: .fury() Collect gems
     fury: 2
 
 - .dir(<E)
@@ -89,6 +85,7 @@ Akkala Tower:
 - .dir(N> + midair)
 - _Chest::Special<Zora Helm>:
     coord: [3466.36, 499.22, -889.05]
+    notes: Permanent armor required for completion.
 
 - .dir(<E)
 - _Korok::Z05

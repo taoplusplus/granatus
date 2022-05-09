@@ -1,5 +1,6 @@
 Dinraal:
-- _Tod::Morning
+- _Tod::Morning:
+    notes: To spawn Dinraal.
 
 - .dir(<E + midair)
 - _Korok::K04:
@@ -12,10 +13,11 @@ Dinraal:
 - .enemy(Kill White-Maned Lynel):
     icon: boss-dlc
     coord: [247.00, 173.39, -3668.50]
-    comment: hoof, crusher
+    comment: Hoof, Lynel Crusher
+    notes: Hoof is for Riddles of Hyrule. Lynel Crusher is just nice to have for 1 hinox.
 
 - Shoot Dinraal
-- _Material<Dinraal Scale>
+- _Material<Dinraal's Scale>
 
 - _Tod::Morning
 
@@ -26,7 +28,7 @@ Dinraal:
 - _Korok::K03
 
 - Shoot Dinraal
-- _Material<Dinraal Claw>
+- _Material<Dinraal's Claw>
 
 - _Tod::Morning
 
@@ -37,7 +39,7 @@ Dinraal:
 - _Snap::Elite<Dinraal>
 
 - Shoot Dinraal
-- _Material<Dinraal Horn>
+- _Material<Shard of Dinraal's Horn>
 
 - .dir(E + midair)
 - _Korok::E02
@@ -45,9 +47,8 @@ Dinraal:
 - .dir(NE)
 - _Korok::E03
 
-- .gale():
+- .gale() .dir(E> midair):
     gale: 1
-- .dir(midair E>)
 - _Korok::E04
 
 - .dir(<<S)
@@ -55,10 +56,12 @@ Dinraal:
 
 - _Shrine::GoraeTorr:
     comment: Gut Check Challenge
+    notes: Wb E and then midair W.
 
 - _Boss::Hinox::Black:
     coord: [2917.42, 343.68, -3561.40]
     comment: Savage Lynel Crusher
+    notes: Or bomb arrows.
 
 - .dir(<<E)
 - _Korok::A01
@@ -66,13 +69,13 @@ Dinraal:
 - .dir(<<S)
 - _Snap::Quest<Kilton>:
     coord: [3244.60, 82.63, -3448.81]
-    comment: take 3 pics
+    comment: Take 3 pics for safety
 
 - _Npc<Kilton>
 
 - .dir(S>)
-- _Korok::A05
-- .gale():
+- _Korok::A05:
+    comment: .gale()
     gale: 1
 
 - .dir(<S)
@@ -80,7 +83,8 @@ Dinraal:
 
 - .dir(E)
 - _Korok::A11
-- _Snap::Quest<Blupee>
+- _Snap::Quest<Blupee>:
+    notes: Legendary Rabbit Trial quest
 
 - .dir(E)
 - _Korok::A12
@@ -92,12 +96,12 @@ Dinraal:
     movements:
         - to: [3489.38, 179.10, -3335.79]
           away: true
-    comment: shock arrows
+    comment: Shock arrows
 
 - .dir(W>)
 - _Shrine::ZunaKai
 
-- .!!(Look east for Xenoblade Chest)
+- .!!(Look east for Xenoblade chest)
 
 - .dir(N>)
 - _Korok::A02
@@ -127,22 +131,24 @@ Dinraal:
 - _Korok::A14
 
 - .dir(<E run)
-- _Korok::A15
+- _Korok::A15:
+    notes: If you have 14 springs, you can dumpster dive here for 15.
 
 - .dir(E> run)
 - _Discover<Activate Akkala Tech Lab>:
     coord: [4522.01, 354.23, -3166.63]
-    comment: throw torch
+    comment: Throw torch
 
 - _Npc<Robbie>:
-    comment: text options 1-1-2
+    comment: Text options 1-1-2
     coord: [4514.28, 352.96, -3158.73]
 
 - _Npc<Cherry>:
-    comment: short sword, arrows
+    comment: Ancient Short Sword, Arrows
+    notes: Sword for Weapon Connoisseur. If missing parts, warp back later.
 
 - _Npc<Jerrin>:
-    comment: text options 1-1-3
+    comment: Text options 1-1-3
 
 - .gale():
     gale: 1
@@ -174,7 +180,8 @@ Dinraal:
 - _Korok::A23
 
 - .dir(W)
-- _Shrine::KatosaAug
+- _Shrine::KatosaAug:
+    notes: .link([Shrine strat]https://youtu.be/MZqANcvFr4c?t=21037)
 
 - .dir(W> run)
 - _Npc<Hoz>:
@@ -187,8 +194,8 @@ Dinraal:
     notes: Spring of Power quest
 
 - _Tod::Night:
-    comment: Death Mounta's Secret
-    notes: Also helps blood moon timing
+    comment: Death Mountain's Secret
+    notes: Also helps blood moon timing. If blood moon happens now, it can be canceled by being inside Tutsuwa Nima.
 
 - .dir(W>>)
 - _Korok::A19

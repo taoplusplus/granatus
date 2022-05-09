@@ -47,7 +47,8 @@ Hyrule Castle:
 - _Chest<Star Fragment>:
     line-color: rgb(255, 255, 0)
     coord: [-224.01, 104.73, -1177.87]
-    comment: under water
+    comment: Under water
+    notes: Need 3 star fragments for quests. The other 2 come from quest rewards.
 
 - Kill Lizalfos
 - _Material<Lizalfos Tail,1.5>
@@ -65,6 +66,7 @@ Hyrule Castle:
 - _Equipment::Weapon<Blizzard Rod>:
     time-override: 999
     coord: [-461.66, 128.27, -1063.01]
+    notes: Completes the Freezing Rod quest and also good for lizalfos fights and knocking down rushrooms.
 
 - _Boss::Hinox::Stal:
     coord: [-491.34, 126.08, -1009.82]
@@ -84,7 +86,7 @@ Hyrule Castle:
 - .dir(Climb ladder)
 - Hit switch to turn on updraft
 - Kill lizalfos behind wall
-- _Material<Lizalfos Tail,1>
+- _Material<Lizalfos Tail,0.5>
 - _Chest<Shard of Dinraal's Fang>:
     coord: [-326.46, 151.16, -1002.40]
 
@@ -125,8 +127,12 @@ Hyrule Castle:
 
 - _Material<Raw Meat>:
     coord: [-108.37, 210.59, -848.95]
+    comment: Koko Cuisine
+
 - _Material<Raw Gourmet Meat>:
     coord: [-152.50, 210.39, -821.58]
+    comment: Rare Find
+
 - _Material<Rushroom,1>
 
 - .dir(Run)
@@ -143,9 +149,10 @@ Hyrule Castle:
     coord: [-322.58, 192.35, -833.74]
     comment: .fury()
     fury: 3
+- _Material<Lizalfos Tail,1.5>
 
 - _Korok::X19:
-    comment: fix ragdoll
+    comment: Fix ragdoll
     notes: Ancient arrow chest optional.
 
 - _Chest<Shard of Naydra's Fang>:

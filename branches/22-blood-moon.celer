@@ -50,7 +50,8 @@ Blood Moon:
 - Shoot rings:
     coord: [-1855.25,76.25]
 
-- _Shrine::SheemDagoze
+- _Shrine::SheemDagoze:
+    notes: .link([Shrine strat]https://youtu.be/MZqANcvFr4c?t=23236)
 
 - .dir(N)
 - _Korok::R38

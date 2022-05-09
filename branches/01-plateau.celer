@@ -18,7 +18,7 @@ Plateau:
 - _Material<Arrow x5>
 
 - .dir(BLSS):
-    notes: Skew fix .link(https://twitter.com/TheKoroks/status/1477147629427433472?s=20&t=67Yr65osvtxvFD8Voud8vQ)
+    notes: .link([Skew fix]https://twitter.com/TheKoroks/status/1477147629427433472?s=20&t=67Yr65osvtxvFD8Voud8vQ)
 
 - _Shrine::JaBaij:
     comment: Clip in
@@ -36,7 +36,7 @@ Plateau:
     notes: Optimally, throw away spear.
 
 - .dir(BLSS):
-    notes: .link(https://youtu.be/gQH8hwsckaM?t=766)
+    notes: .link([Example BLSS]https://youtu.be/gQH8hwsckaM?t=766)
 - .loc(Old Man's Hut)
 
 - _Korok::P18

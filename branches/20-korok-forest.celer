@@ -1,6 +1,6 @@
 Korok Forest:
 - .dir(BLSS):
-    notes: .link(https://twitter.com/litbooclips/status/1517282542319128580?s=20&t=6NOKIkaSFlZI6RBS4pjCvg)
+    notes: .link([Example]https://twitter.com/litbooclips/status/1517282542319128580?s=20&t=6NOKIkaSFlZI6RBS4pjCvg)
 
 - _Discover<Lost Woods>:
     coord: [723.00, 293.50, -1918.50]
@@ -12,10 +12,10 @@ Korok Forest:
 
 - .dir(E)
 
-- Npc<Walton>:
+- _Npc<Walton>:
     coord: [417.59, 334.17, -2180.27]
     comment: Riddles of Hyrule
-    notes: Apple, pumpkin, sunshroom, voltfin, lynel hoof
+    notes: Apple, pumpkin, sunshroom, voltfin, lynel hoof.
 
 - _Snap::Quest<Sunshroom>
 
@@ -24,7 +24,7 @@ Korok Forest:
 - .dir(Drop down)
 - _Material<2 Bird Egg>:
     coord: [473.50, 258.02, -2120.31]
-    comment: for transmute
+    comment: For transmute
 
 - _Equipment::Weapon<Korok Leaf>:
     coord: [473.68, 249.02, -2125.30]
@@ -32,7 +32,7 @@ Korok Forest:
 - _Npc<Hestu>:
     icon: hestu
     coord: [466.03, 249.56, -2112.38]
-    comment: inventory upgrade
+    comment: Inventory upgrades
     notes: 3 bow, 4 shield, 7 weapon
 
 - _Material<Silent Princess, 3>:
@@ -46,7 +46,7 @@ Korok Forest:
     comment: Legendary Rabbit Trial
 
 - _Shop<General Store>:
-    comment: shrooms, arrows
+    comment: Shrooms, arrows
     notes: Razorshroom, ironshroom, stamella for transmute
 
 - _Material<Rushroom,4>
@@ -94,18 +94,18 @@ Korok Forest:
 
 - _Shrine::KuhnSidajj
 
-- .dir(S>> delayed turn):
-    notes: Escape Korok Forest
+- .dir(S>> delayed turn)
+- Escape Korok Forest
 
 - .dir(S midairs)
 - _Korok::X05
 
-- .dir(drop down)
-- _Chest<5 Ancient arrow>
+- .dir(Drop down)
+- _Chest<5 Ancient Arrow>
 
 - _Korok::X06
 
-- .dir(drop down)
+- .dir(Drop down)
 - _Korok::X10
 
 - .dir(W)

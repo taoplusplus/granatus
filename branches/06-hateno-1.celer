@@ -16,7 +16,7 @@ Hateno 1:
 - .dir(glide S)
 - .!!(Hold smuggle torch):
     coord: [3447.5,1982]
-    notes: .link(https://youtu.be/Bg0r6gWb5wY)
+    notes: .link([Example]https://youtu.be/MZqANcvFr4c?t=5417)
 
 - .dir(E> + E)
 - _Discover<Activate Tech Lab>:
@@ -30,6 +30,8 @@ Hateno 1:
 
 - .!!(Camera and slate upgrades):
     notes: 3 shafts for bombs+; 3 screws for sensor+; 3 cores for stasis+.
+    var-change:
+        AncientCore: -3
 
 - _Equipment::Weapon<Torch>:
     comment: On the way out
@@ -63,13 +65,15 @@ Hateno 1:
 
 - _Cook<Speed Elixir>:
     comment: 3 frogs, carrot, guts
+    var-change:
+        Hot-FootedFrog: -3
 
 - .dir(NE)
 - .!!(Select CAMERA)
 
 - _Shrine::MyahmAgana:
     comment: SAVE at monk
-    notes: .link(https://youtu.be/MZqANcvFr4c?t=5334)
+    notes: .link([Shrine strat]https://youtu.be/MZqANcvFr4c?t=5334)
 
 - .dir(W)
 
@@ -77,7 +81,7 @@ Hateno 1:
     coord: [3285.60, 217.60, 2197.58]
 
 - .!!(Essence dupe):
-    notes: .link(https://www.youtube.com/watch?v=QTsBcH3-q2I)
+    notes: .link([Tutorial]https://www.youtube.com/watch?v=QTsBcH3-q2I)
 
 - .rune(Sell hearts 3-3-3.)
 - .rune(Sell 1, save.)
@@ -105,7 +109,7 @@ Hateno 1:
 
 - .dir(W>>)
 - _Korok::N50:
-    notes: Combo N50 and N49 together .link(https://youtu.be/d4s3-3IcV9A?t=5908)
+    notes: .link([Combo N50 and N49 together]https://youtu.be/d4s3-3IcV9A?t=5908)
 
 - _Korok::N49:
     movements:

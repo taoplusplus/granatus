@@ -37,7 +37,7 @@ Gerudo Town 2:
     comment: Deliver ice
 
 - .dir(BLSS):
-    notes: Delivery strat .link(https://youtu.be/xdwRCszyc48?t=11542)
+    notes: .link([Delivery strat]https://youtu.be/xdwRCszyc48?t=11542)
 
 - _Npc::Gerudo<Furosa>:
     coord: [-3764.49, 141.00, 2699.75]

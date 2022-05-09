@@ -5,7 +5,7 @@ Plateau 2:
     comment: 20 wood
 
 - .!!(Dupe/Transfer/Transmute):
-    notes: Blood moon will happen during this. That's ok.
+    notes: .link([Example]https://youtu.be/gQH8hwsckaM?t=24487). Blood moon will happen during this. That's ok.
     var-change:
         CourserBeeHoney: 5
         HeartyBass: 5
@@ -114,4 +114,5 @@ Plateau 2:
 - _Korok::C62
 
 - .dir(W>>)
-- _Shrine::KaamYatak
+- _Shrine::KaamYatak:
+    notes: .link([Shrine strat]https://youtu.be/MZqANcvFr4c?t=22880)

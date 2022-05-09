@@ -4,10 +4,13 @@ Goron City:
 - .dir(<<N)
 - _Korok::E27:
     line-color: rgb(0,255,0)
+    time-override: 999
 
 - .dir(<W)
 - _Boss::Talus::Igneo:
     coord: [1795.54, 394.18, -1746.73]
+    comment: .fury()
+    fury: 3
 
 - .dir(<N)
 - _Korok::E26
@@ -77,7 +80,8 @@ Goron City:
     coord: [1713.95, 498.05, -2446.92]
 
 - .dir(N>)
-- _Shrine::ShaeMosah
+- _Shrine::ShaeMosah:
+    notes: .link([Shrine strat]https://youtu.be/MZqANcvFr4c?t=18427)
 
 - .dir(<N turn)
 - _Npc::Goron<Yunobo>:
@@ -96,9 +100,8 @@ Goron City:
 - .dir(<<E)
 - _Korok::E06
 
-- .gale():
+- .gale() .dir(<<W midair):
     gale: 1
-- .dir(mdiar <<W)
 - _Boss::Talus::Igneo:
     coord: [2146.50, 535.83, -3011.50]
     comment: Iron Sledgehammer
@@ -113,7 +116,8 @@ Goron City:
 - .dir(NW)
 - _Korok::E07
 
-- _Shrine::ShoraHah
+- _Shrine::ShoraHah:
+    notes: .link([Shrine strat]https://twitter.com/SaltyLe57508305/status/1452745836035596288?s=20&t=p7PTWCybxsIFAtMyiJQv3w)
 
 - .dir(Minecart out):
     coord: [1593.5,-3090.5]
@@ -150,14 +154,17 @@ Goron City:
 - _Korok::H22
 
 - .dir(SE + midair)
-- _Korok::K11
+- _Korok::K11:
+    time-override: 999
 
 - .dir(<<E + NE midair)
 - _Boss::Hinox::Blue:
     coord: [341.82, 278.73, -3116.14]
-- .fury():
+    comment: .fury()
     fury: 3
 
 - _Shrine::KetohWawai:
-    comment: Ancient Core
-    notes: Skip if you already have 5
+    comment: Ancient Core (.v(AncientCore))
+    var-change:
+        AncientCore: 1
+    notes: Need 2 cores for Ancient Short Sword.

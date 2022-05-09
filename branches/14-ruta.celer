@@ -20,7 +20,8 @@ Vah Ruta:
 - .dir(E)
 - _Korok::N03
 
-- _Shrine::MezzaLo
+- _Shrine::MezzaLo:
+    notes: .link([Shrine strat]https://youtu.be/MZqANcvFr4c?t=7037)
 
 - .dir(E)
 - _Korok::Z42
@@ -79,23 +80,24 @@ Vah Ruta:
 - .dir(N>)
 - _Npc::ZoraMale<King Dorephan>:
     coord: [3338.31, 268.90, -551.60]
-    comment: fish drama
+    comment: Fish drama
 
-#- _Equipment::Armor<Zora Armor>
+- _Equipment::Shield<Zora Armor>
 
 - _Shop<General Store>:
     coord: [3319.26, 245.82, -492.58]
-    comment: violets, arrows, 4 fins
-    notes: Sizzlefin and chillfin used for transmuting
+    comment: Violets, arrows, 4 fins
+    notes: Sizzlefin and chillfin used for transmuting.
 
 - _Material<Fleet Lotus Seed,4>:
     coord: [3322.04, 238.76, -504.53]
 
-- _Shrine::NeezYohma
+- _Shrine::NeezYohma:
+    notes: .link([Shrine strat]https://youtu.be/MZqANcvFr4c?t=14903)
 
 - _Npc::ZoraMale<Muzu>:
     coord: [3299.5,-474.5]
-    comment: fish drama, memory
+    comment: Fish drama, Mipha memory
 
 - .dir(E> + midair)
 - _Korok::Z18
@@ -106,7 +108,7 @@ Vah Ruta:
 - .dir(NE square)
 - _Npc::ZoraMale<Sidon>:
     coord: [3598.55, 316.00, -330.31]
-    comment: select CRYO, shock arrow
+    comment: Select Cryo, shock arrow
 
 - Enter Ruta:
     icon: ruta-enter
@@ -115,7 +117,8 @@ Vah Ruta:
 - .gale():
     gale: 3
 
-- _Snap::Elite<Waterblight>
+- _Snap::Elite<Waterblight>:
+    notes: .link([1-cycle Waterblight]https://twitter.com/bings_f/status/1373841119860039680)
 
 - Mipha's Grace:
     icon: ruta-done

@@ -7,7 +7,7 @@ Vah Medoh:
           coord: [-2342.64, 348.37, 680.81]
           notes: First multi-shot for menu overloading.
 
-     - .dir(N>> super)
+     - .dir(N>>)
 
      - _Material<Hearty Durian,10>:
           coord: [-2190.5,441]

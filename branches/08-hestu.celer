@@ -5,7 +5,7 @@ Hestu:
     coord: [1870.87, 227.97, 965.85]
     comment: Fortified Pumpkin
 
-- .dir(W)
+- .dir(W>)
 - _Npc<Impa>:
     coord: [1772.71, 229.43, 984.31]
 
@@ -33,7 +33,7 @@ Hestu:
 - .dir(<W turn)
 - _Korok::D20
 
-- .dir(NW)
+- .dir(<<N)
 - _Korok::D19
 
 - .dir(NW)

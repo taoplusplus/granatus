@@ -65,6 +65,7 @@ Rito Stable:
     - _Material<Wood>:
         coord: [-3229,-1749.5]
         comment: Another round
+        notes: Save/reload after finding voltfin.
 
     - .dir(<S)
 

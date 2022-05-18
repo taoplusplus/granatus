@@ -103,7 +103,7 @@ Faron:
 - _Korok::F03
 
 - .dir(S>)
-- _Boss::Hinox:
+- _Boss::Hinox::Red:
     comment: bomb arrow midair
     coord: [1330.55, 180.38, 2623.94]
 

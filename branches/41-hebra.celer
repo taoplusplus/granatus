@@ -256,6 +256,11 @@ Hebra:
 
 - _Npc<Geggle>:
     coord: [-2912.28, 274.78, -551.75]
+    comment: Cliffside Etchings
+
+- _Npc<Toren>:
+    coord: [-2916.00, 274.73, -561.00]
+    comment: Gift for the Great Fairy
 
 - .dir(W>)
 - _Korok::T34

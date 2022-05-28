@@ -6,6 +6,9 @@ _project:
     name: New Granatus
     url: "https://github.com/taoplusplus/granatus"
     version: 1.0.0
+-config:
+    split-format:
+        Shrine: "{{Korok}}. - {{_}}"
 _route:
     - Plateau 1:
         - __use__ Plateau

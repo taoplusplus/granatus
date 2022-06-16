@@ -9,7 +9,8 @@ Perfect Drink:
 - _Korok::W32
 
 - .dir(N)
-- _Tower::Wasteland
+- _Tower::Wasteland:
+    notes: At some point in this segment, you'll set time of day to noon for Suma Sahma. World record does this at Fire Rod. Push it later for your skill level.
 
 - .dir(NE)
 - _Korok::W23:
@@ -21,6 +22,11 @@ Perfect Drink:
     coord: [-2161.96, 333.51, 2140.63]
     comment: Weapon Connoisseur
     notes: Also used for setting campfires.
+
+- _Tod::Noon:
+    comment: (optional)
+    coord: [-2141.96, 333.51, 2140.63]
+    # hide-icon-on-map: true
 
 - .dir(N run)
 - _Korok::W11
@@ -40,9 +46,12 @@ Perfect Drink:
 
 - .dir(S> turn)
 - _Korok::W39
+- _Tod::Noon:
+    comment: (optional)
+    coord: [-2039.70, 375.80, 2884.23]
+    # hide-icon-on-map: true
 
 - .dir(W turn)
-- _Tod::Noon
 
 - .dir(SE)
 - _Korok::W38
@@ -110,9 +119,10 @@ Perfect Drink:
 - _Korok::W48
 
 - .dir(<W delayed turn)
-- _Material<Lizalfos Tail,0.5>
-
+- _Material<Lizalfos Tail,0.5>:
+    coord: [-2616.20, 101.81, 3302.57]
 - _Korok::W52
+
 
 - .dir(S)
 - _Korok::W63
